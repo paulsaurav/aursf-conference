@@ -38,17 +38,8 @@ const Navbar = () => {
                 <Link href="/committee">Committee</Link>
               </li>
               <li>
-                <details>
-                  <summary>Important Dates</summary>
-                  <ul className="p-2 bg-white text-black z-50">
-                    <li>
-                      <Link href="/deadlines">Deadlines</Link>
-                    </li>
-                    <li>
-                      <Link href="/program-schedule">Program Schedule</Link>
-                    </li>
-                  </ul>
-                </details>
+              <Link href="/important-dates">Important Dates</Link>
+                 
               </li>
               <li>
                 <Link href="/registration">Registration</Link>
@@ -80,17 +71,7 @@ const Navbar = () => {
               <Link href="/committee">Committee</Link>
             </li>
             <li>
-              <details>
-                <summary>Important Dates</summary>
-                <ul className="p-2 bg-white text-black z-50">
-                  <li>
-                    <Link href="/deadlines">Deadlines</Link>
-                  </li>
-                  <li>
-                    <Link href="/program-schedule">Program Schedule</Link>
-                  </li>
-                </ul>
-              </details>
+            <Link href="/important-dates">Important Dates</Link>
             </li>
             <li>
               <Link href="/registration">Registration</Link>
