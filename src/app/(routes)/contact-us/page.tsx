@@ -1,0 +1,123 @@
+"use client";
+import React from "react";
+
+const page = () => {
+  return (
+    <div className="w-full min-h-screen bg-gradient-to-b from-neutral-900 to-neutral-950 text-neutral-200 py-12 px-6">
+      <div className="max-w-5xl mx-auto p-8 bg-neutral-800 bg-opacity-80 rounded-lg shadow-lg">
+        <h1 className="text-4xl md:text-5xl font-bold text-center text-white mb-8">
+          Contact Us
+        </h1>
+        <p className="text-center text-neutral-300 text-lg mb-12">
+          Have questions? Reach out to us using the form below or through our contact details.
+        </p>
+
+        {/* Contact Form */}
+        <div className="grid md:grid-cols-2 gap-8">
+          <div className="space-y-6">
+            <input
+              type="text"
+              placeholder="Your Name"
+              className="w-full p-4 bg-neutral-900 border border-neutral-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+            <input
+              type="email"
+              placeholder="Your Email"
+              className="w-full p-4 bg-neutral-900 border border-neutral-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+            <textarea
+              rows={5}
+              placeholder="Your Message"
+              className="w-full p-4 bg-neutral-900 border border-neutral-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            ></textarea>
+            <button
+              className="w-full py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg text-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl"
+            >
+              Send Message
+            </button>
+          </div>
+
+          {/* Contact Details */}
+          <div className="space-y-8 text-neutral-300">
+            <div className="flex items-center gap-4">
+              <div className="p-4 bg-blue-500 text-white rounded-full shadow-lg animate-pulse">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M3 10l9-9m0 0l9 9M4 11h16m-5 10l-4-4-4 4m9-10l-4 4-4-4"
+                  />
+                </svg>
+              </div>
+              <p>
+                <strong>Address:</strong> Assam University, Silchar, Assam, India
+              </p>
+            </div>
+            <div className="flex items-center gap-4">
+              <div className="p-4 bg-green-500 text-white rounded-full shadow-lg animate-pulse">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M4.793 4.793a1 1 0 00-1.414 0l-1.086 1.086a1 1 0 000 1.414l7.208 7.207a1 1 0 001.414 0l7.207-7.207a1 1 0 000-1.414l-1.086-1.086a1 1 0 00-1.414 0L9.5 9.5 4.793 4.793z"
+                  />
+                </svg>
+              </div>
+              <p>
+                <strong>Email:</strong>{" "}
+                <a
+                  href="mailto:yrs.aursf@gmail.com"
+                  className="text-blue-400 hover:underline"
+                >
+                  yrs.aursf@gmail.com
+                </a>
+              </p>
+            </div>
+            <div className="flex items-center gap-4">
+              <div className="p-4 bg-purple-500 text-white rounded-full shadow-lg animate-pulse">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M14.828 9.172a4 4 0 015.657 5.657l-7.071 7.071a4 4 0 01-5.657-5.657l7.071-7.071z"
+                  />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M6.343 17.657l7.071-7.071"
+                  />
+                </svg>
+              </div>
+              <p>
+                <strong>Phone:</strong> +91-123-456-7890
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default page;

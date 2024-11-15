@@ -36,7 +36,7 @@ export const VenueAndLocation = () => {
           <h2 className="text-3xl font-bold text-white mb-6">Location</h2>
 
           <p className="text-neutral-300 leading-relaxed mb-4">
-            To reach Assam University, the following directions can help you depending upon your starting location:
+          To reach Assam University, the following directions can help you depending upon your starting location:
           </p>
 
           {/* By Air */}
