@@ -1,0 +1,315 @@
+{
+    "organizingCommittee": [
+      {
+        "position": "Chief Patron",
+        "name": "Air Chief Marshall (Retd.) Arup Raha",
+        "department": "Chancellor",
+        "email": ""
+      },
+      {
+        "position": "Patron",
+        "name": "Prof. Rajive Mohan Pant",
+        "department": "Vice-Chancellor",
+        "email": "rajivenerist@gmail.com / vc@aus.ac.in"
+      },
+      {
+        "position": "Co-Patron",
+        "name": "Dr. Pradosh Kiran Nath",
+        "department": "Registrar",
+        "email": "pknnath33@gmail.com"
+      },
+      {
+        "position": "",
+        "name": "Dr. Subhadeep Dhar",
+        "department": "Finance Officer",
+        "email": ""
+      },
+      {
+        "position": "Chairman",
+        "name": "Prof. Asoke K. Sen",
+        "department": "Physics",
+        "email": "asokesen@yahoo.com"
+      },
+      {
+        "position": "Vice-Chairperson",
+        "name": "Prof. Niranjan Roy",
+        "department": "Economics",
+        "email": "roy_niranjan@yahoo.com"
+      },
+      {
+        "position": "",
+        "name": "Prof. Chira Ranjan Bhattacharjee",
+        "department": "Chemistry",
+        "email": "crbhattacharjee2@gmail.com"
+      },
+      {
+        "position": "",
+        "name": "Prof. Anindya Syam Choudhury",
+        "department": "Dean-Students Welfare",
+        "email": "anindyasyam@yahoo.com"
+      },
+      {
+        "position": "",
+        "name": "Prof. Shahin Ara Begum",
+        "department": "Computer Science",
+        "email": "shahin.begum.ara@gmail.com"
+      },
+      {
+        "position": "",
+        "name": "Prof. Arup Barman",
+        "department": "Business Administration",
+        "email": "arupgeet@rediffmail.com"
+      },
+      {
+        "position": "",
+        "name": "Prof. Ajit Kumar Baishya",
+        "department": "Linguistics",
+        "email": "akb095@gmail.com"
+      },
+      {
+        "position": "Organising Chairman",
+        "name": "Prof. Piyush Pandey",
+        "department": "Microbiology",
+        "email": "piyushddn@gmail.com"
+      }
+    ],
+    "scholarSecretaries": [
+      {
+        "name": "Mr. Amit Kr. Roy",
+        "department": "Computer Science",
+        "email": "amitroy235@gmail.com"
+      },
+      {
+        "name": "Miss. Pubali Dey",
+        "department": "Life Science and Bioinformatics",
+        "email": "pubalidey02@gmail.com"
+      },
+      {
+        "name": "Mr. M. Ishwarjit Singh",
+        "department": "Social Work",
+        "email": "mishwarjit@gmail.com"
+      },
+      {
+        "name": "Mr. Bhaskar Goswami",
+        "department": "Physics",
+        "email": "bhaskargoswami009@gmail.com"
+      },
+      {
+        "name": "Mr. Animekh Hazarika",
+        "department": "Ecology and Env. Science",
+        "email": "animekhhazarika123@gmail.com"
+      },
+      {
+        "name": "Mr. Jintu K. Bania",
+        "department": "Ecology and Env. Science",
+        "email": "jintukmrbania@gmail.com"
+      },
+      {
+        "name": "Mr. Prasenjit Saha",
+        "department": "Visual Arts",
+        "email": "prasenjitbabai93@gmail.com"
+      },
+      {
+        "name": "Mr. Sandeep Das",
+        "department": "Microbiology",
+        "email": "sandeepmib18@gmail.com"
+      },
+      {
+        "name": "Mr. Bishal Sinha",
+        "department": "English",
+        "email": "bishal.sinha456@gmail.com"
+      }
+    ],
+    "scholarCoordinators": [
+      {
+        "name": "Mr. Maksud Ahmed",
+        "department": "Education",
+        "email": "maksud2299@gmail.com"
+      },
+      {
+        "name": "Mr. Joydeep Chandra Das",
+        "department": "Biotechnology",
+        "email": "joydeepchandradas99@gmail.com"
+      },
+      {
+        "name": "Mr. Nirmal Barman",
+        "department": "Physics",
+        "email": "nirmalbarmanphysics@gmail.com"
+      },
+      {
+        "name": "Mr. Nurulla Mansur Barbhuiya",
+        "department": "Computer Science",
+        "email": "nurullabarbhuiya@gmail.com"
+      },
+      {
+        "name": "Miss. Pinki Koiri",
+        "department": "Life Science and Bioinformatics",
+        "email": "pinkikoiri092@gmail.com"
+      },
+      {
+        "name": "Miss. Ananya Baruah",
+        "department": "Linguistics",
+        "email": "ananyabaruah995@gmail.com"
+      },
+      {
+        "name": "Mr. Richard Arambam",
+        "department": "Computer Science",
+        "email": "richard.arambam@gmail.com"
+      },
+      {
+        "name": "Miss. Gargi Hazarika",
+        "department": "English",
+        "email": "gargihazarika50@gmail.com"
+      },
+      {
+        "name": "Mr. Imran Uddin",
+        "department": "Business Administration",
+        "email": "Imranu437@gmail.com"
+      },
+      {
+        "name": "Mr. Saurav Paul",
+        "department": "Computer Science",
+        "email": "saurav.paul1@aus.ac.in"
+      },
+      {
+        "name": "Mr. Joy Paul",
+        "department": "English",
+        "email": "joy.paul@aus.ac.in"
+      },
+      {
+        "name": "Mr. Romit Singha Roy",
+        "department": "Ecology and Env. Science",
+        "email": "romitsingharoy19@gmail.com"
+      },
+      {
+        "name": "Miss. Krishna Hiloidari",
+        "department": "Sociology",
+        "email": "krishnahiloidari@gmail.com"
+      },
+      {
+        "name": "Mr. Hillol Das",
+        "department": "Biotechnology",
+        "email": "hilloldas.18@gmail.com"
+      },
+      {
+        "name": "Mr. Sandeep Das",
+        "department": "Microbiology",
+        "email": "sandeepmib18@gmail.com"
+      },
+      {
+        "name": "Mr. Bishal Sonar",
+        "department": "Ecology and Env. Science",
+        "email": "bishalsonar47@gmail.com"
+      },
+      {
+        "name": "Mr. Joy Deb",
+        "department": "Statistics",
+        "email": "jdeb48389@gmail.com"
+      },
+      {
+        "name": "Mr. Surajit Chanda",
+        "department": "Microbiology",
+        "email": "surajitnew@gmail.com"
+      },
+      {
+        "name": "Mr. Jnyanendra Barman",
+        "department": "Political Science",
+        "email": "jnyanendrabarman59@gmail.com"
+      },
+      {
+        "name": "Miss. Chinmoyee Saikia",
+        "department": "English",
+        "email": "chinmoyeesaikia007@gmail.com"
+      },
+      {
+        "name": "Mr. Ashif Ansari",
+        "department": "Business Administration",
+        "email": "ashifansari0508@gmail.com"
+      },
+      {
+        "name": "Miss. Rozina Khatun",
+        "department": "Education",
+        "email": "rozinakhatun786@hotmail.com"
+      }
+    ],
+    "specialChairs": [
+      {
+        "name": "Prof. Sarbani Giri",
+        "department": "Life Science and Bioinformatics",
+        "email": "girisarbani@gmail.com"
+      },
+      {
+        "name": "Prof. Sudipta Roy",
+        "department": "",
+        "email": "sudipta.it@gmail.com"
+      },
+      {
+        "name": "Prof. Debomalya Ghosh",
+        "department": "Business Administration",
+        "email": "operationsdghosh@gmail.com"
+      },
+      {
+        "name": "Prof. Bipul Syam Purkayastha",
+        "department": "Computer Science",
+        "email": "bipul_sh@hotmail.com"
+      },
+      {
+        "name": "Prof. Madhumita Dhar Sarkar",
+        "department": "Law",
+        "email": "madhumitadharsarkar@gmail.com"
+      },
+      {
+        "name": "Prof. M.Faruque Hussain",
+        "department": "Earth Science",
+        "email": "faruque_geo@yahoo.co.in"
+      },
+      {
+        "name": "Prof. Manoj Kumar Sinha",
+        "department": "Library and Information Science",
+        "email": "mksinha1965@gmail.com"
+      },
+      {
+        "name": "Prof. Sanjib Das",
+        "department": "Pharmaceutical Science",
+        "email": "sanjibaus2010@gmail.com"
+      },
+      {
+        "name": "Prof. Snigdha Das Roy",
+        "department": "Sanskrit",
+        "email": "snigdha.intouch@gmail.com"
+      },
+      {
+        "name": "Prof. Ganesh Nandi",
+        "department": "Visual Arts",
+        "email": "gnandi148@gmail.com"
+      },
+      {
+        "name": "Prof. Atri Deshamukhya",
+        "department": "Physics",
+        "email": "atri.deshamukhya@gmail.com"
+      },
+      {
+        "name": "Prof. H. Ramananda Singh",
+        "department": "Business Administration",
+        "email": "hao_rama@rediffmail.com"
+      }
+    ],
+    "technicalChairs": [
+      {
+        "name": "Dr. Biswa Ranjan Roy",
+        "department": "Computer Science",
+        "email": "brroy88@gmail.com"
+      },
+      {
+        "name": "Dr. Arnab Paul",
+        "department": "Computer Science & Engineering",
+        "email": "arnab.itaus@gmail.com"
+      },
+      {
+        "name": "Dr. Charvak",
+        "department": "Mass Communication",
+        "email": "mrcharvak@gmail.com"
+      }
+    ]
+  }
+  

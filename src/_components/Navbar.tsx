@@ -52,7 +52,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <Link href="/" className="btn btn-ghost text-xl">
+          <Link href="https://aursf.in/" className="btn btn-ghost text-xl" target="_blank">
             <Image src="/logo-aursf.png" alt="logo" width={60} height={60} />
           </Link>
           <Link href="/" className="btn btn-ghost text-xl">
@@ -85,7 +85,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <Link href="/" className="btn btn-ghost text-xl">
+          <Link href="http://aus.ac.in" className="btn btn-ghost text-xl" target="_blank">
             <Image src="/aus-logo.png" alt="logo" width={200} height={200} />
           </Link>
         </div>
