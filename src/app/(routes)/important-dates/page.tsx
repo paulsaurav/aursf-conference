@@ -2,9 +2,9 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="w-full   bg-neutral-950 text-neutral-200 py-8 px-6 md:px-12 lg:px-24">
-      <div className="max-w-3xl mx-auto p-8 bg-neutral-900 rounded-lg shadow-lg">
-        <h2 className="text-3xl font-bold text-white mb-4">
+    <div className="w-full min-h-screen bg-white text-black py-8 px-6 md:px-12 lg:px-24">
+      <div className="max-w-3xl mx-auto p-8 bg-gray-100 rounded-lg shadow-lg">
+        <h2 className="text-3xl font-bold text-black mb-4">
           Submission of Abstract
         </h2>
         <div className="overflow-x-auto">
@@ -14,8 +14,8 @@ const page = () => {
         </div>
       </div>
       <br />
-      <div className="max-w-3xl mx-auto p-8 bg-neutral-900 rounded-lg shadow-lg">
-        <h2 className="text-3xl font-bold text-white mb-4">
+      <div className="max-w-3xl mx-auto p-8 bg-gray-100 rounded-lg shadow-lg">
+        <h2 className="text-3xl font-bold text-black mb-4">
           Submission of Paper
         </h2>
         <div className="overflow-x-auto">
@@ -23,9 +23,9 @@ const page = () => {
         </div>
       </div>
       <br />
-      <div className="max-w-3xl mx-auto p-8 bg-neutral-900 rounded-lg shadow-lg">
-        <h2 className="text-3xl font-bold text-white mb-4">
-          Program Schedule{" "}
+      <div className="max-w-3xl mx-auto p-8 bg-gray-100 rounded-lg shadow-lg">
+        <h2 className="text-3xl font-bold text-black mb-4">
+          Program Schedule
         </h2>
       </div>
     </div>

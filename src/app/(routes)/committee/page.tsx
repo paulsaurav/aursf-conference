@@ -6,16 +6,16 @@ interface Member {
   name: string;
   department: string;
   email?: string;
-  position?: string; 
+  position?: string;
 }
 
 const Page = () => {
-  const { 
-    organizingCommittee, 
-    scholarSecretaries, 
-    scholarCoordinators, 
-    specialChairs, 
-    technicalChairs 
+  const {
+    organizingCommittee,
+    scholarSecretaries,
+    scholarCoordinators,
+    specialChairs,
+    technicalChairs,
   } = data;
 
   const renderTwoColumnCardView = (list: Member[]) => (
@@ -23,17 +23,17 @@ const Page = () => {
       {list.map((item, index) => (
         <div
           key={index}
-          className="p-4 bg-neutral-800 rounded-lg shadow border border-neutral-700"
+          className="p-4 bg-gray-100 rounded-lg shadow border border-gray-300"
         >
           {item.position && (
-            <p className="text-sm text-neutral-400">{item.position}</p>
+            <p className="text-sm text-gray-500">{item.position}</p>
           )}
-          <h3 className="text-lg font-semibold">{item.name}</h3>
-          <p className="text-sm text-neutral-300">{item.department}</p>
+          <h3 className="text-lg font-semibold text-black">{item.name}</h3>
+          <p className="text-sm text-gray-800">{item.department}</p>
           {item.email && (
             <a
               href={`mailto:${item.email}`}
-              className="text-sm text-blue-400 underline"
+              className="text-sm text-blue-600 underline"
             >
               {item.email}
             </a>
@@ -48,14 +48,14 @@ const Page = () => {
       {list.map((item, index) => (
         <div
           key={index}
-          className="p-4 bg-neutral-800 rounded-lg shadow border border-neutral-700"
+          className="p-4 bg-gray-100 rounded-lg shadow border border-gray-300"
         >
-          <h3 className="text-lg font-semibold">{item.name}</h3>
-          <p className="text-sm text-neutral-300">{item.department}</p>
+          <h3 className="text-lg font-semibold text-black">{item.name}</h3>
+          <p className="text-sm text-gray-800">{item.department}</p>
           {item.email && (
             <a
               href={`mailto:${item.email}`}
-              className="text-sm text-blue-400 underline"
+              className="text-sm text-blue-600 underline"
             >
               {item.email}
             </a>
@@ -66,29 +66,29 @@ const Page = () => {
   );
 
   return (
-    <div className="w-full bg-neutral-950 text-neutral-200 py-8 px-6 md:px-12 lg:px-24">
-      <div className="max-w-7xl mx-auto p-8 bg-neutral-900 rounded-lg shadow-lg">
-        <h2 className="text-3xl font-bold text-white mb-6 text-center">
+    <div className="w-full bg-white text-black py-8 px-6 md:px-12 lg:px-24">
+      <div className="max-w-7xl mx-auto p-8 bg-gray-100 rounded-lg shadow-lg">
+        <h2 className="text-3xl font-bold text-black mb-6 text-center">
           Organizing and Advisory Committee
         </h2>
         {renderTwoColumnCardView(organizingCommittee)}
 
-        <h2 className="text-2xl font-bold text-white mt-12 mb-6 text-center">
+        <h2 className="text-2xl font-bold text-black mt-12 mb-6 text-center">
           Scholar Organizing Secretaries
         </h2>
         {renderThreeColumnCardView(scholarSecretaries)}
 
-        <h2 className="text-2xl font-bold text-white mt-12 mb-6 text-center">
+        <h2 className="text-2xl font-bold text-black mt-12 mb-6 text-center">
           Scholar Organizing Coordinators
         </h2>
         {renderThreeColumnCardView(scholarCoordinators)}
 
-        <h2 className="text-2xl font-bold text-white mt-12 mb-6 text-center">
+        <h2 className="text-2xl font-bold text-black mt-12 mb-6 text-center">
           Special Chairs
         </h2>
         {renderTwoColumnCardView(specialChairs)}
 
-        <h2 className="text-2xl font-bold text-white mt-12 mb-6 text-center">
+        <h2 className="text-2xl font-bold text-black mt-12 mb-6 text-center">
           Technical Chairs
         </h2>
         {renderThreeColumnCardView(technicalChairs)}
