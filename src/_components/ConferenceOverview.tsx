@@ -19,7 +19,7 @@ export function ConferenceOverview() {
           </div>
           <div className="p-8 bg-neutral-900 rounded-lg shadow-lg flex flex-col justify-between">
             <div>
-              <h2 className="text-3xl font-bold text-white mb-4">About Assam University Research Scholars' Forum</h2>
+              <h2 className="text-3xl font-bold text-white mb-4">About Assam University Research Scholars&apos; Forum</h2>
               <p
                 className={`text-neutral-300 leading-relaxed ${
                   isAboutAUExpanded ? "mb-4" : "line-clamp-4"

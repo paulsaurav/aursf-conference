@@ -1,9 +1,0 @@
-{/* <h2 className="text-3xl font-bold text-black mb-4">
-            About Assam University Research Scholars&apos; Forum
-          </h2>
-          <p className="text-gray-800 leading-relaxed text-justify">
-            The Assam University Research Scholars&apos; Forum (AUSRF), a vanguard for research scholars at Assam University, is privileged to organize the &lsquo;International Young Researchers&apos; Conclave and Rural Science Congress (IYRCRCS-2025)&rsquo;. <br />
-            Established in 2009, AUSRF has been at the forefront of championing the rights and interests of research scholars, addressing critical issues such as timely fellowship disbursement, facilitating smooth PhD completion, and fostering a supportive research environment. <br />
-            By providing a platform for dialogue, collaboration, and knowledge sharing, AUSRF empowers research scholars to voice their concerns, exchange ideas, and collectively work towards a more conducive research ecosystem. The organization&apos;s commitment to nurturing young talent and advancing research excellence is evident in its various initiatives. <br />
-            AURSF through this prestigious event aims to ignite a spark of innovation, catalyze interdisciplinary collaboration, and contribute to the global discourse on pressing issues. By bringing together brilliant young minds from diverse fields, the conclave seeks to foster a vibrant intellectual community and inspire the next generation of researchers to make significant contributions to society.
-          </p> */}
