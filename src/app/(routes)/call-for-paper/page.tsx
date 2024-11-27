@@ -18,17 +18,19 @@ const page = () => {
               </tr>
             </thead>
             <tbody>
-              {/* ARTS */}
+              {/* LANGUAGE, HUMANITIES AND SOCIAL SCIENCES */}
               <tr>
-                <td className="px-4 py-2 border border-gray-300" rowSpan={4}>
-                  Arts
+                <td className="px-4 py-2 border border-gray-300" rowSpan={8}>
+                  Language, Humanities, and Social Sciences
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
                   Language, Identity, and Global Perspectives
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
                   - Globalization, Language Evolution, and Cultural Identity <br />
-                  - The Role of Language in Bridging Cultural Perspectives
+                  - The Role of Language in Bridging Cultural Perspectives <br />
+                  - বাংলা ভাষা, সাহিত্য ও সংস্কৃতি: জাতিসত্তার নির্মাণ, ঐতিয্য এবং উত্তরাধিকার <br />
+                  - Linguistic Diversity and Preservation
                 </td>
               </tr>
               <tr>
@@ -58,12 +60,7 @@ const page = () => {
                   - The Role of Arts in Reflecting and Shaping Public Discourse
                 </td>
               </tr>
-
-              {/* HUMANITIES */}
               <tr>
-                <td className="px-4 py-2 border border-gray-300" rowSpan={4}>
-                  Humanities and Social Sciences
-                </td>
                 <td className="px-4 py-2 border border-gray-300">
                   Social Systems, Policy, Law, and Inclusive Governance
                 </td>
@@ -83,19 +80,25 @@ const page = () => {
                 <td className="px-4 py-2 border border-gray-300">
                   - Historical Narratives and Their Impact on Contemporary Society <br />
                   - Educational Innovations for a Changing World <br />
+                  - Internationalization of Education and the Context of NEP 2020 <br />
+                  - Information and Communications Technology in Education <br />
                   - Heritage and Identity in a Globalized Context <br />
                   - Integrating Indigenous Knowledge and Educational Systems
                 </td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border border-gray-300">
-                  Economic and Business Trends in Global Markets
+                  Economics and Business Trends in Global Markets
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
+                  - Demographic Dividend and Its Role in Global Economics <br />
+                  - Economic Development and Global Change <br />
+                  - Climate Change and Livelihood Vulnerability <br />
                   - Emerging Business Trends in a Global Market <br />
                   - Hospitality and Tourism: Balancing Growth with Cultural Sensitivity <br />
-                  - Evolving Market Dynamics and Consumer Behavior <br />
-                  - Entrepreneurship and Innovation in Developing Economies
+                  - Evolving Market Dynamics and Consumer Behaviour <br />
+                  - Entrepreneurship and Innovation in Developing Economies <br />
+                  - Border Studies and Border Travel: Economic Impacts and Cross-Cultural Exchange
                 </td>
               </tr>
               <tr>
@@ -132,29 +135,30 @@ const page = () => {
               </tr>
               <tr>
                 <td className="px-4 py-2 border border-gray-300">
-                  The Language of the Universe: From Mathematical Models to Signals and Smart Systems
+                  The Language of the Universe: From Mathematical Models to Signals, Smart Systems, and Computational Physics
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
                   - Mathematics and Physics at the Frontier: Modelling the Mysteries of Nature <br />
-                  - From Big Data to Big Ideas: Analytics and Problem Solving in Science <br />
+                  - From Big Data to Big Ideas: Analytics and Computational Physics <br />
                   - Bridging Distances: Innovation in Communication Technologies <br />
                   - Stargazing to Solutions: Observational Astronomy’s Newest Insights <br />
                   - Astrophysical Wonders: Deciphering Phenomena from Dust to Supernovae <br />
+                  - Atmospheric Physics: From the Earth’s Surface to Space Weather Dynamics <br />
                   - Life in Motion: Biophysics from Molecular Structures to Medical Insights <br />
                   - Nano Horizons: Transforming Energy and Medicine with Nanotechnology <br />
-                  - Energy Unbound: Pioneering Battery Science for a Greener Future
+                  - Energy Unbound: Pioneering Battery Science for a Greener Future <br />
+                  - Seeing the Unseen: Quantum and Nonlinear Dynamics
                 </td>
               </tr>
               <tr>
                 <td className="px-4 py-2 border border-gray-300">
-                  Chemistry and Earth Science – Building a Sustainable World from Molecules to
-                  Mountains
+                  Chemistry and Earth Science – Building a Green and Sustainable World from Molecules to Mountains
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  - Chemistry in Action: Innovations Driving Practical Solutions <br />
-                  - Earth’s Secrets Revealed: Understanding Processes that Shape Our Planet <br />
+                  - Chemistry in Action: Innovations Driving Practical Solutions, Computational Chemistry <br />
+                  - Earth’s Secrets Revealed: Understanding Processes That Shape Our Planet <br />
                   - Materials of Tomorrow: Advances Transforming Industry and Technology <br />
-                  - Environmental Chemistry: Analyzing and Protecting Our Ecosystem
+                  - Environmental Chemistry: Analysing and Protecting Our Ecosystem
                 </td>
               </tr>
               <tr>

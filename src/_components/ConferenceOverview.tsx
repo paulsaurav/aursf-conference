@@ -19,61 +19,22 @@ export function ConferenceOverview() {
           </div>
           <div className="p-8 bg-neutral-900 rounded-lg shadow-lg flex flex-col justify-between">
             <div>
-              <h2 className="text-3xl font-bold text-white mb-4">About Assam University</h2>
+              <h2 className="text-3xl font-bold text-white mb-4">About Assam University Research Scholars' Forum</h2>
               <p
                 className={`text-neutral-300 leading-relaxed ${
                   isAboutAUExpanded ? "mb-4" : "line-clamp-4"
                 } text-justify`}
               >
-                Assam University, a leading institution of higher education in Northeast India, is
-                located in Silchar, Assam. Surrounded by hillocks, tea gardens, and the peaceful,
-                lush environment of the Barak Valley region, Assam University provides an ideal
-                setting for academic pursuits. Established in 1994 under the Assam (Central)
-                University Act of 1989, the institution has met the region&apos;s higher education
-                needs. The main campus, situated at Dargakona, approximately 20 kilometers from
-                Silchar, Cachar, covers over 600 acres and is known for its picturesque landscape.
-                Assam University also has a second campus in Diphu, located in the Karbi Anglong
-                district of Assam, covering an area of 90 acres, which was established in 2007. Both
-                campuses work collectively to expand the university&apos;s research and educational
-                influence throughout the region. Assam University has achieved its core value,
-                &ldquo;Pratyayabodhakritirupapattaye&rdquo;, meaning &ldquo;Conviction, Confidence,
-                and Creativity,&rdquo; by fostering an environment of knowledge, research, and
-                socio-cultural exchange in the state and the country.
+                he Assam University Research Scholars&apos; Forum (AUSRF), a vanguard for research scholars at Assam University, is privileged to organize the &lsquo;International Young Researchers&apos; Conclave and Rural Science Congress (IYRCRCS-2025)&rsquo;. <br />
+                Established in 2009, AUSRF has been at the forefront of championing the rights and interests of research scholars, addressing critical issues such as timely fellowship disbursement, facilitating smooth PhD completion, and fostering a supportive research environment. <br />
               </p>
               <p
                 className={`text-neutral-300 leading-relaxed ${
                   isAboutAUExpanded ? "mb-4" : "hidden"
                 } text-justify`}
               >
-                The academic schools of Assam University are composed of various departments that
-                offer undergraduate, postgraduate, and doctorate programs. The university&apos;s
-                academic structure comprises 16 schools of study, including the School of Social
-                Sciences, School of Humanities, School of Languages, School of Life Sciences, School
-                of Physical Sciences, and School of Environmental Sciences, among others. These
-                schools house over 40 departments, offering courses in subjects ranging from the
-                arts, sciences, technology, and management. The schools emphasize both theoretical
-                and practical learning, encouraging creativity, critical thinking, and a
-                research-oriented mindset. Renowned for its research focus, particularly in the
-                fields of life sciences, environmental sciences, and social sciences, Assam
-                University boasts a distinguished faculty, modern infrastructure, and a commitment
-                to academic excellence. The university&apos;s active participation in community
-                outreach programs contributes to the social and economic development of the region,
-                solidifying its position as a leading institution in Northeast India. <br />
-                In addition to being a center for study, Assam University serves as a hub for
-                different cultures in this region. Cultural assimilation was seen when the
-                institution organized several festivals, events, and activities. The knowledge hub
-                of the university, the central library, known as Rabindra Library, serves as a rich
-                repository of academic resources and digital services that meet the needs of
-                students and researchers. <br />
-                Diverse programs have been organized to engage students in curricular and
-                extracurricular activities. Activities conducted by the NCC cell, NSS cell, and
-                Gandhi cell are some of them. Apart from these, university have different hobby
-                clubs (Astronomy, Drama, Photography, Film, Green, Nature, App Innovation, Campus
-                Gallery, Quiz &amp; Debate and so on) that conduct different programs within and
-                outside the university to foster knowledge not only in the students&apos; community
-                but also in the general public. The university also conducts different community
-                service programs such as health awareness, women empowerment, and environmental
-                conservation in the nearby areas.
+                By providing a platform for dialogue, collaboration, and knowledge sharing, AUSRF empowers research scholars to voice their concerns, exchange ideas, and collectively work towards a more conducive research ecosystem. The organization&apos;s commitment to nurturing young talent and advancing research excellence is evident in its various initiatives. <br />
+                AURSF through this prestigious event aims to ignite a spark of innovation, catalyze interdisciplinary collaboration, and contribute to the global discourse on pressing issues. By bringing together brilliant young minds from diverse fields, the conclave seeks to foster a vibrant intellectual community and inspire the next generation of researchers to make significant contributions to society.
               </p>
             </div>
             <button

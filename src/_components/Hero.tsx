@@ -5,19 +5,36 @@ const Hero: React.FC = () => {
   return (
     <div
       className="relative w-full h-screen bg-cover bg-center"
-      style={{ backgroundImage: `url('/hero.jpeg')` }}
+      style={{ backgroundImage: `url('/hero.png')` }}
     >
-      <div className="absolute inset-0 bg-black opacity-50"></div> {/* Dark overlay */}
-      <div className="relative z-10 flex flex-col justify-center items-center h-full text-center text-white space-y-6 px-4">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold font-serif">
-          International Young Researchers&apos; Conclave
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-black/70"></div>
+
+      <div className="relative z-10 flex flex-col justify-center items-center h-full text-center text-white px-6 md:px-12">
+        {/* Main Title */}
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold font-serif tracking-wide leading-tight">
+          International Young Researchers&apos; Conclave <br />
+          <span className="block">and Rural Science Congress</span>
         </h1>
-        <p className="text-lg sm:text-xl md:text-2xl max-w-3xl mx-auto font-sans">
-          Prospects of Humanities and Science in the Next Decade for Sustainable
-          Development of Human Life
+
+        {/* Subtitle */}
+        <p className="text-lg sm:text-xl md:text-2xl mt-6 font-light max-w-3xl mx-auto leading-relaxed">
+          Integrating Science, Society, and Culture <br />
+          for a Sustainable Future
         </p>
-        <p className="text-md sm:text-lg font-sans">
-          Organised by <span className="font-semibold">Assam University Research Scholars&apos; Forum (AURSF)</span>
+
+        {/* Organizer Details */}
+        <p className="text-sm sm:text-md md:text-lg font-light mt-8 max-w-4xl mx-auto leading-relaxed">
+          Organised by{" "}
+          <span className="font-medium">
+            Assam University Research Scholars&apos; Forum (AURSF)
+          </span>, in collaboration with{" "}
+          <span className="font-medium">
+            Internal Quality Assurance Cell (IQAC), Assam University, Silchar
+          </span>, and{" "}
+          <span className="font-medium">
+            Prof. H. S. Srivastva Foundation for Science & Society
+          </span>.
         </p>
       </div>
     </div>

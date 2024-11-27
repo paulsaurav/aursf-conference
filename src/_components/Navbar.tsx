@@ -5,10 +5,24 @@ import Image from "next/image";
 const Navbar = () => {
   return (
     <>
-      <div className="navbar bg-white text-black px-24 py-6 border-b border-gray-300">
-        <div className="navbar-start">
+      <div className="navbar bg-white text-black px-6 lg:px-24 py-6 border-b border-gray-300 flex flex-col items-center">
+        {/* Top Section with Logos */}
+        <div className="w-full flex items-center justify-center gap-8 pb-4 border-b border-gray-300">
+          <Link href="https://aursf.in/" target="_blank">
+            <Image src="/logo-aursf.png" alt="AURSF Logo" width={80} height={80} />
+          </Link>
+          <Link href="/" target="_blank">
+            <Image src="/auslogo.png" alt="AUS Logo" width={80} height={80} />
+          </Link>
+          <Link href="http://aus.ac.in" target="_blank">
+            <Image src="/another.png" alt="Another Logo" width={80} height={80} />
+          </Link>
+        </div>
+
+        {/* Mobile View Dropdown */}
+        <div className="navbar-start lg:hidden mt-4">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <div tabIndex={0} role="button" className="btn btn-ghost">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -38,8 +52,7 @@ const Navbar = () => {
                 <Link href="/committee">Committee</Link>
               </li>
               <li>
-              <Link href="/important-dates">Important Dates</Link>
-                 
+                <Link href="/important-dates">Important Dates</Link>
               </li>
               <li>
                 <Link href="/registration">Registration</Link>
@@ -52,14 +65,10 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <Link href="https://aursf.in/" className="btn btn-ghost text-xl" target="_blank">
-            <Image src="/logo-aursf.png" alt="logo" width={60} height={60} />
-          </Link>
-          <Link href="/" className="btn btn-ghost text-xl">
-            AURSF-Conference
-          </Link>
         </div>
-        <div className="navbar-center hidden lg:flex">
+
+        {/* Desktop Navigation Items */}
+        <div className="navbar-center hidden lg:flex mt-6">
           <ul className="menu menu-horizontal px-1 z-50">
             <li>
               <Link href="/">Home</Link>
@@ -71,7 +80,7 @@ const Navbar = () => {
               <Link href="/committee">Committee</Link>
             </li>
             <li>
-            <Link href="/important-dates">Important Dates</Link>
+              <Link href="/important-dates">Important Dates</Link>
             </li>
             <li>
               <Link href="/registration">Registration</Link>
@@ -83,11 +92,6 @@ const Navbar = () => {
               <Link href="/contact-us">Contact Us</Link>
             </li>
           </ul>
-        </div>
-        <div className="navbar-end">
-          <Link href="http://aus.ac.in" className="btn btn-ghost text-xl" target="_blank">
-            <Image src="/aus-logo.png" alt="logo" width={200} height={200} />
-          </Link>
         </div>
       </div>
     </>
