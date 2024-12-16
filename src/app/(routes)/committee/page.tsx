@@ -2,12 +2,38 @@
 import React from "react";
 import committeeData from "@/data/committee.json";
 
+// Define the structure of the JSON data
+interface CommitteeMember {
+  Name: string;
+  Position?: string;
+  Department?: string;
+  Email?: string;
+  Image?: string; // Assuming Image field exists for highlighted cards
+}
+
+interface CommitteeData {
+  ChiefPatron: CommitteeMember;
+  Patron: CommitteeMember;
+  OrganisingChairperson: CommitteeMember;
+  CoPatrons: CommitteeMember[];
+  Chairpersons: CommitteeMember[];
+  ViceChairpersons: CommitteeMember[];
+  OrganizingCommittee: CommitteeMember[];
+  ScholarOrganizingCommittee: CommitteeMember[];
+  SpecialChairs: CommitteeMember[];
+  NationalAdvisoryCommittee: CommitteeMember[];
+  InternationalAdvisoryCommittee: CommitteeMember[];
+}
+
+// Define Member interface for transformed data
 interface Member {
   name: string;
   position?: string;
   department?: string;
   email?: string;
 }
+
+const committeeDataTyped: CommitteeData = committeeData as CommitteeData;
 
 const Page = () => {
   const {
@@ -22,9 +48,10 @@ const Page = () => {
     SpecialChairs,
     NationalAdvisoryCommittee,
     InternationalAdvisoryCommittee,
-  } = committeeData;
+  } = committeeDataTyped;
 
-  const transformKeys = (list: any[]): Member[] =>
+  // Transform function to map JSON keys to Member interface
+  const transformKeys = (list: CommitteeMember[]): Member[] =>
     list.map((item) => ({
       name: item.Name || "",
       position: item.Position || "",
@@ -32,6 +59,7 @@ const Page = () => {
       email: item.Email || "",
     }));
 
+  // Transformed data for each section
   const organizingCommittee = transformKeys(OrganizingCommittee);
   const scholarOrganizingCommittee = transformKeys(ScholarOrganizingCommittee);
   const specialChairs = transformKeys(SpecialChairs);
@@ -40,6 +68,7 @@ const Page = () => {
     InternationalAdvisoryCommittee
   );
 
+  // Helper function to render list cards
   const renderListCards = (list: Member[], columns: string) => (
     <div className={`grid ${columns} gap-8`}>
       {list.map((item, index) => (
@@ -67,19 +96,22 @@ const Page = () => {
     </div>
   );
 
+  // Helper function to render highlighted cards
   const renderHighlightedCard = (
-    member: { Name: string; Position: string; Image: string },
+    member: CommitteeMember,
     title: string,
     bgColor: string
   ) => (
     <div
       className={`p-6 rounded-xl shadow-lg text-white flex flex-col items-center ${bgColor}`}
     >
-      <img
-        src={member.Image}
-        alt={member.Name}
-        className="w-32 h-32 rounded-full object-cover mb-4 shadow-md"
-      />
+      {member.Image && (
+        <img
+          src={member.Image}
+          alt={member.Name}
+          className="w-32 h-32 rounded-full object-cover mb-4 shadow-md"
+        />
+      )}
       <h4 className="text-lg font-semibold uppercase tracking-wide text-gray-100">
         {title}
       </h4>
@@ -88,6 +120,7 @@ const Page = () => {
     </div>
   );
 
+  // Main page layout
   return (
     <div className="w-full bg-gray-50 text-black py-12 px-6 md:px-12 lg:px-24">
       <div className="max-w-7xl mx-auto">
