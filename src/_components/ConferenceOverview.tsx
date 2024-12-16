@@ -117,7 +117,7 @@ export function ConferenceOverview() {
           </div>
           <div className="w-full">
             <img
-              src="/ausrf.webp"
+              src="/about-conf.jpeg"
               alt="Conference"
               className="rounded-lg shadow-lg w-full h-auto max-h-[400px] object-cover"
             />

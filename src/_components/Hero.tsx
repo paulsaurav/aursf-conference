@@ -36,6 +36,8 @@ const Hero: React.FC = () => {
             Prof. H. S. Srivastva Foundation for Science & Society
           </span>.
         </p>
+        <br />
+        <h2 className="text-3xl font-bold">Date: 6th to 8th March 2025</h2>
       </div>
     </div>
   );

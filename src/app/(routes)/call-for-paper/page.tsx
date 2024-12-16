@@ -20,7 +20,7 @@ const page = () => {
             <tbody>
               {/* LANGUAGE, HUMANITIES AND SOCIAL SCIENCES */}
               <tr>
-                <td className="px-4 py-2 border border-gray-300" rowSpan={8}>
+                <td className="px-4 py-2 border border-gray-300" rowSpan={6}>
                   Language, Humanities, and Social Sciences
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
@@ -30,10 +30,12 @@ const page = () => {
                   - Globalization, Language Evolution, and Cultural Identity <br />
                   - The Role of Language in Bridging Cultural Perspectives <br />
                   - বাংলা ভাষা, সাহিত্য ও সংস্কৃতি: জাতিসত্তার নির্মাণ, ঐতিয্য এবং উত্তরাধিকার <br />
-                  - Linguistic Diversity and Preservation
+                  - Linguistic Diversity and Preservation <br />
+                  - Cross-Language Translation: Challenges and Opportunities <br />
+                  - Bridging Cultures Through Language and Translation
                 </td>
               </tr>
-              <tr>
+              {/* <tr>
                 <td className="px-4 py-2 border border-gray-300">
                   Multilingualism and Cross-Cultural Communication
                 </td>
@@ -41,17 +43,19 @@ const page = () => {
                   - Cross-Language Translation: Challenges and Opportunities <br />
                   - Bridging Cultures Through Language and Translation
                 </td>
-              </tr>
+              </tr> */}
               <tr>
                 <td className="px-4 py-2 border border-gray-300">
-                  Arts and Society in the Digital Age
+                Tradition, Modernity, Arts and Society in the Digital Age
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
                   - Artistic Expressions of Society and Identity <br />
-                  - Digital Innovation and Its Impact on Visual and Performing Arts
+                  - Digital Innovation and Its Impact on Visual and Performing Arts <br />
+                  - Intersections of Tradition and Modernity in Artistic Practice <br />
+                  - The Role of Arts in Reflecting and Shaping Public Discourse
                 </td>
               </tr>
-              <tr>
+              {/* <tr>
                 <td className="px-4 py-2 border border-gray-300">
                   Tradition, Modernity, and Artistic Expression
                 </td>
@@ -59,7 +63,7 @@ const page = () => {
                   - Intersections of Tradition and Modernity in Artistic Practice <br />
                   - The Role of Arts in Reflecting and Shaping Public Discourse
                 </td>
-              </tr>
+              </tr> */}
               <tr>
                 <td className="px-4 py-2 border border-gray-300">
                   Social Systems, Policy, Law, and Inclusive Governance

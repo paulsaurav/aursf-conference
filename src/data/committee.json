@@ -1,0 +1,492 @@
+{
+    "ChiefPatron": {
+        "Name": "Air Chief Marshal (Retd.) Arup Raha",
+        "Position": "Chancellor, Assam University",
+        "Image": "/arup-raha.webp"
+    },
+    "Patron": {
+        "Name": "Prof. Rajive Mohan Pant",
+        "Position": "Vice-Chancellor, Assam University",
+        "Image": "/rm-pant.jpg"
+    },
+    "CoPatrons": [
+        {
+            "Name": "Dr. Pradosh Kiran Nath",
+            "Position": "Registrar, Assam University"
+        },
+        {
+            "Name": "Dr. Subhadeep Dhar",
+            "Position": "Finance Officer, Assam University"
+        }
+    ],
+    "Chairpersons": [
+        {
+            "Name": "Prof. Asoke Kumar Sen",
+            "Position": "Dept. of Physics, AUS"
+        },
+        {
+            "Name": "Prof. Saroj Kanta Barik",
+            "Position": "Dept. Botany, NEHU"
+        }
+    ],
+    "ViceChairpersons": [
+        {
+            "Name": "Prof. Niranjan Roy",
+            "Position": "Dept. of Economics, AUS"
+        },
+        {
+            "Name": "Prof. Anindya Shyam Choudhury",
+            "Position": "Dept. of English, AUS"
+        },
+        {
+            "Name": "Prof. Arup Barman",
+            "Position": "Dept. of Business Administration"
+        },
+        {
+            "Name": "Prof. Rana Pratap Singh",
+            "Position": "PHSSFSS, Lucknow"
+        },
+        {
+            "Name": "Prof. Chira Ranjan Bhattacharjee",
+            "Position": "Dept. of Chemistry, AUS"
+        },
+        {
+            "Name": "Prof. Shahin Ara Begum",
+            "Position": "Dept. of Computer Science, AUS"
+        },
+        {
+            "Name": "Prof. Ajit Kumar Baishya",
+            "Position": "Dept. of Linguistics"
+        }
+    ],
+    "OrganisingChairperson": {
+        "Name": "Prof. Piyush Pandey",
+        "Position": "Dept of Microbiology and Director IQAC, AUS",
+        "Image": "/Piyush-Pandey.png"
+    },
+    "ScholarOrganizingCommittee": [
+        {
+            "Name": "Mr. Amit Kr. Roy"
+        },
+        {
+            "Name": "Miss. Pubali Dey"
+        },
+        {
+            "Name": "Mr. Ishwarjit Singh"
+        },
+        {
+            "Name": "Mr. Bhaskar Goswami"
+        },
+        {
+            "Name": "Mr. Aimekh Hazarika"
+        },
+        {
+            "Name": "Mr. Jintu K. Bania"
+        },
+        {
+            "Name": "Mr. Prasenjit Saha"
+        },
+        {
+            "Name": "Mr. Bishal Sinha"
+        },
+        {
+            "Name": "Mr. Maksud Ahmed"
+        },
+        {
+            "Name": "Miss. Pinki Koiri"
+        },
+        {
+            "Name": "Mr. Saurav Paul"
+        },
+        {
+            "Name": "Mr. Sandeep Das"
+        },
+        {
+            "Name": "Mr. Nirmal Barman"
+        },
+        {
+            "Name": "Miss. Ananya Baruah"
+        },
+        {
+            "Name": "Mr. Joy Paul"
+        },
+        {
+            "Name": "Mr. Bishal Sonar"
+        },
+        {
+            "Name": "Miss. Krishna Hiloidari"
+        },
+        {
+            "Name": "Miss. Gargi Hazarika"
+        },
+        {
+            "Name": "Mr. Romit Singha Roy"
+        },
+        {
+            "Name": "Mr. Joy Deb"
+        },
+        {
+            "Name": "Mr. Ashif Ansari"
+        },
+        {
+            "Name": "Mr. Surajit Chanda"
+        },
+        {
+            "Name": "Miss. Najima Begum"
+        },
+        {
+            "Name": "Miss. Chinmoyee Saikia"
+        },
+        {
+            "Name": "Miss. Rozina Khatun"
+        }
+    ],
+    "NationalAdvisoryCommittee": [
+        {
+            "Name": "Prof. Naveen Kumar Arora",
+            "Position": "BBA University, Lucknow; School of Earth and Environmental Science, BBAU-Lucknow"
+        },
+        {
+            "Name": "Prof. N.C. Talukdar",
+            "Position": "V.C. Downtoun University"
+        },
+        {
+            "Name": "Prof. Manabendra Datta Choudhury",
+            "Position": "V.C. Rabindra Tagore University"
+        },
+        {
+            "Name": "Prof. Satpal Singh Bisht",
+            "Position": "V.C. Soban Singh Jeena University, Almora, Uttarakhand"
+        },
+        {
+            "Name": "Prof. Dibakar Chandra Deka",
+            "Position": "Vice Chancellor, Mizoram University"
+        },
+        {
+            "Name": "Prof. Sudhir Sopory",
+            "Position": "Former Vice Chancellor, JNU, New Delhi"
+        },
+        {
+            "Name": "Prof. C.D. Sharma",
+            "Position": "Vice Chancellor, USTM"
+        },
+        {
+            "Name": "Prof. Akshay Talukdar",
+            "Position": "In-charge National Phytotron Facility, ICAR-IARI, New Delhi"
+        },
+        {
+            "Name": "Prof. Kaustubha Mohanty",
+            "Position": "Chemical Engineering, IITG"
+        },
+        {
+            "Name": "Prof. Sat Prakash Bansal",
+            "Position": "Vice Chancellor, Central University of Himachal Pradesh"
+        },
+        {
+            "Name": "Prof. Amrit Pal Singh",
+            "Position": "Dean, Commerce, GKU"
+        },
+        {
+            "Name": "Prof. Ram Kathin Singh",
+            "Position": "NEFORD, Lucknow"
+        },
+        {
+            "Name": "Dr. Ravi Kanon",
+            "Position": "Director, Cachar Cancer Hospital"
+        },
+        {
+            "Name": "Prof. Sushanta Kumar Nayak",
+            "Position": "Department of Economics"
+        },
+        {
+            "Name": "Prof. Chetan Singh Solanki",
+            "Position": "Dept. of Energy Science and Engineering, IIT Bombay"
+        },
+        {
+            "Name": "Prof. Biman B. Nath",
+            "Position": "Astronomy Astrophysics, Raman Research Institute"
+        },
+        {
+            "Name": "Dr. Kireet Kumar",
+            "Position": "GB Pant National Institute of Himalayan Environment"
+        },
+        {
+            "Name": "Prof. R.S. Dube",
+            "Position": "Vice Chancellor, Gujarat Central University, Gandhinagar"
+        },
+        {
+            "Name": "Prof. Pramod Tandon",
+            "Position": "Former Vice Chancellor, NEHU"
+        },
+        {
+            "Name": "Dr. Ramesh Chaudhary",
+            "Position": "Padmasree, PDPR, Gorakhpur"
+        },
+        {
+            "Name": "Dr. Eklabya Sharma",
+            "Position": "Strategic Advisor & Distinguished Fellow, ATREE"
+        },
+        {
+            "Name": "Dr. R.D. Tripathi",
+            "Position": "Platinum Jubilee Sr. Scientist, NASI"
+        },
+        {
+            "Name": "Dr. Shivaji Wajih",
+            "Position": "GEAG, Gorakhpur"
+        }
+    ],
+    "InternationalAdvisoryCommittee": [
+        {
+            "Name": "Prof. Anthony P. Clevenger",
+            "Position": "Montana State University, USA"
+        },
+        {
+            "Name": "Prof. Evgenii Zubko",
+            "Position": "Institute for Basic Science"
+        },
+        {
+            "Name": "Prof. Sabastian Wolf",
+            "Position": "University of Kiel, Germany"
+        },
+        {
+            "Name": "Prof. Ludmilla Kolokolva",
+            "Position": "University of Maryland"
+        },
+        {
+            "Name": "Prof. Rattan Lal",
+            "Position": "The Ohio State University, USA"
+        },
+        {
+            "Name": "Prof. Mahadeb Paul",
+            "Position": "Maryland State Department of Health, USA"
+        },
+        {
+            "Name": "Dr. Artan Qineti",
+            "Position": "Slovak University of Agriculture, Nitra"
+        },
+        {
+            "Name": "Dr. Filomena Mottola",
+            "Position": "University of Campania Luigi Vanvitelli, Caserta, Italy"
+        },
+        {
+            "Name": "Dr. Manesh Kumar Panner Selvam",
+            "Position": "Tulane University Health Sciences, USA"
+        },
+        {
+            "Name": "Dr. Suryanil Ghosh",
+            "Position": "University of Texas, Southwestern Medical Center, Dallas, USA"
+        },
+        {
+            "Name": "Dr. Kavindra Kumar Kesari",
+            "Position": "Aalto University, Espoo, Finland"
+        },
+        {
+            "Name": "Dr. Arpita Roychoudhury",
+            "Position": "Xolo GmbH, Berlin, Germany"
+        },
+        {
+            "Name": "Dr. Israel Maldonado Rosas",
+            "Position": "CITMER, Mexico City, Mexico"
+        }
+    ],
+    "SpecialChairs": [
+        {
+            "Name": "Prof. Atri Deshamukhya",
+            "Position": "Dept. of Physics, AUS"
+        },
+        {
+            "Name": "Prof. Sarbani Giri",
+            "Position": "Dept. of Life Science and Bioinformatics, AUS"
+        },
+        {
+            "Name": "Prof. Debomalya Ghosh",
+            "Position": "Dept. of Business Administration, AUS"
+        },
+        {
+            "Name": "Prof. Bipul Syam Purkayastha",
+            "Position": "Dept. of Computer Science, AUS"
+        },
+        {
+            "Name": "Prof. M. Faruque Hussain",
+            "Position": "Dept. of Earth Science"
+        },
+        {
+            "Name": "Prof. Manoj Kumar Sinha",
+            "Position": "Dept. of Library and Information Science"
+        },
+        {
+            "Name": "Prof. Sanjib Das",
+            "Position": "Dept. of Pharmaceutical Science"
+        },
+        {
+            "Name": "Prof. Madhumita Dhar Sarkar",
+            "Position": "Dept. of Law, AUS"
+        },
+        {
+            "Name": "Prof. Snigdha Das Roy",
+            "Position": "Dept. of Sanskrit, AUS"
+        },
+        {
+            "Name": "Prof. Ganesh Nandi",
+            "Position": "Dept. of Visual Arts, AUS"
+        },
+        {
+            "Name": "Prof. Sudipta Roy",
+            "Position": ""
+        },
+        {
+            "Name": "Prof. H. Ramananda Singh",
+            "Position": "Dept. of Business Administration, AUS"
+        }
+    ],
+    "OrganizingCommittee": [
+        {
+            "Name": "Prof. Himadri Sekhar Das",
+            "Position": "Dept. of Physics, AUS"
+        },
+        {
+            "Name": "Dr. Subhashish Choudhury",
+            "Position": "Dept. of Life Science and Bioinformatics, AUS"
+        },
+        {
+            "Name": "Dr. Amitabha Bhattacharjee",
+            "Position": "Dept. Microbiology, AUS"
+        },
+        {
+            "Name": "Prof. Anupam Das Talukdar",
+            "Position": "Dept. of Life Science and Bioinformatics, AUS"
+        },
+        {
+            "Name": "Dr. Subhodeep Roy Choudhury",
+            "Position": "Dept. of Life Science and Bioinformatics, AUS"
+        },
+        {
+            "Name": "Dr. Debotesh Chakraborty",
+            "Position": "Dept. of Political Science, AUS"
+        },
+        {
+            "Name": "Prof. Saugata Kumar Nath",
+            "Position": "Dept. of English, AUS"
+        },
+        {
+            "Name": "Dr. Pranab Kumar Sarkar",
+            "Position": "Dept. of Applied Humanities, AUS"
+        },
+        {
+            "Name": "Dr. Tapodhir Achariee",
+            "Position": "Dept. of Computer Science & Engineering, AUS"
+        },
+        {
+            "Name": "Prof. Dibyojyoti Bhattacharjee",
+            "Position": "Dept. of Statistics, AUS"
+        },
+        {
+            "Name": "Dr. Saptarshi Pal",
+            "Position": "Dept. of Computer Science, AUS"
+        },
+        {
+            "Name": "Dr. Mukut Sarmah",
+            "Position": "Dept. of Library Science, AUS"
+        },
+        {
+            "Name": "Prof. Ritwik Mazumder",
+            "Position": "Dept. of Economics, AUS"
+        },
+        {
+            "Name": "Dr. Arun Jyoti Nath",
+            "Position": "Dept. of Ecology and Environmental Science, AUS"
+        },
+        {
+            "Name": "Dr. Mostafizar Rahman",
+            "Position": "Dept. of Arabic, AUS"
+        },
+        {
+            "Name": "Prof. Raja Mandal",
+            "Position": "Dept. of Economics, AUS"
+        },
+        {
+            "Name": "Dr. Panna Deb",
+            "Position": "Dept. of Ecology and Environmental Science, AUS"
+        },
+        {
+            "Name": "Dr. Jawad Rahmani",
+            "Position": "Dept. of Urdu, AUS"
+        },
+        {
+            "Name": "Prof. Molankal Gangabhusan M.",
+            "Position": "Dept. of Social Work, AUS"
+        },
+        {
+            "Name": "Dr. Amit Kumar Das",
+            "Position": "Dept. of Business Administration, AUS"
+        },
+        {
+            "Name": "Dr. Aditi Nath",
+            "Position": "Dept. of Social Work, AUS"
+        },
+        {
+            "Name": "Prof. Supriyo Chakraborty",
+            "Position": "Dept. of Biotechnology, AUS"
+        },
+        {
+            "Name": "Dr. Barunjyoti Choudhary",
+            "Position": "Dept. of Bengali, AUS"
+        },
+        {
+            "Name": "Dr. Joyasree Dey",
+            "Position": "Dept. of Social Work, AUS"
+        },
+        {
+            "Name": "Prof. M. Tineshowri Devi",
+            "Position": "Dept. of Social Work, AUS"
+        },
+        {
+            "Name": "Dr. Syed Murtaza Alfarid Hussain",
+            "Position": "Dept. of Mass Communication, AUS"
+        },
+        {
+            "Name": "Dr. Amalendu Chakraborty",
+            "Position": "Dept. of French, AUS"
+        },
+        {
+            "Name": "Dr. Prodipto Das",
+            "Position": "Dept. of Computer Science, AUS"
+        },
+        {
+            "Name": "Dr. Rami Chakraborty",
+            "Position": "Dept. of Bengali, AUS"
+        },
+        {
+            "Name": "Dr. Naresh Kumar",
+            "Position": "Dept. of Education, AUS"
+        },
+        {
+            "Name": "Dr. Sumit Saha",
+            "Position": "Dept. of Mathematics, AUS"
+        },
+        {
+            "Name": "Dr. Ajita Tiwari",
+            "Position": "Dept. of Agricultural Engineering, AUS"
+        },
+        {
+            "Name": "Dr. Lalzo S. Thangjam",
+            "Position": "Dept. of Social Work, AUS"
+        },
+        {
+            "Name": "Dr. Utpal Sarkar",
+            "Position": "Dept. of Physics, AUS"
+        },
+        {
+            "Name": "Dr. Munmun Chakrabarty",
+            "Position": "Dept. of Philosophy, AUS"
+        },
+        {
+            "Name": "Dr. Ponkhi Borah",
+            "Position": "Dept. of Law, AUS"
+        },
+        {
+            "Name": "Dr. Kingshuk Adhikari",
+            "Position": "Dept. Commerce, AUS"
+        }
+    ]
+}

@@ -1,39 +1,63 @@
 "use client";
 import React from "react";
-import data from "@/data/data.json";
+import committeeData from "@/data/committee.json";
 
 interface Member {
   name: string;
-  department: string;
-  email?: string;
   position?: string;
+  department?: string;
+  email?: string;
 }
 
 const Page = () => {
   const {
-    organizingCommittee,
-    scholarSecretaries,
-    scholarCoordinators,
-    specialChairs,
-    technicalChairs,
-  } = data;
+    ChiefPatron,
+    Patron,
+    OrganisingChairperson,
+    CoPatrons,
+    Chairpersons,
+    ViceChairpersons,
+    OrganizingCommittee,
+    ScholarOrganizingCommittee,
+    SpecialChairs,
+    NationalAdvisoryCommittee,
+    InternationalAdvisoryCommittee,
+  } = committeeData;
 
-  const renderTwoColumnCardView = (list: Member[]) => (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+  const transformKeys = (list: any[]): Member[] =>
+    list.map((item) => ({
+      name: item.Name || "",
+      position: item.Position || "",
+      department: item.Department || "",
+      email: item.Email || "",
+    }));
+
+  const organizingCommittee = transformKeys(OrganizingCommittee);
+  const scholarOrganizingCommittee = transformKeys(ScholarOrganizingCommittee);
+  const specialChairs = transformKeys(SpecialChairs);
+  const nationalAdvisoryCommittee = transformKeys(NationalAdvisoryCommittee);
+  const internationalAdvisoryCommittee = transformKeys(
+    InternationalAdvisoryCommittee
+  );
+
+  const renderListCards = (list: Member[], columns: string) => (
+    <div className={`grid ${columns} gap-8`}>
       {list.map((item, index) => (
         <div
           key={index}
-          className="p-4 bg-gray-100 rounded-lg shadow border border-gray-300"
+          className="p-6 bg-white rounded-lg shadow-md border border-gray-200 hover:shadow-lg transition-shadow"
         >
+          <h3 className="text-xl font-bold text-gray-800">{item.name}</h3>
           {item.position && (
-            <p className="text-sm text-gray-500">{item.position}</p>
+            <p className="text-sm text-gray-500 mt-2">{item.position}</p>
           )}
-          <h3 className="text-lg font-semibold text-black">{item.name}</h3>
-          <p className="text-sm text-gray-800">{item.department}</p>
+          {item.department && (
+            <p className="text-sm text-gray-700 mt-1">{item.department}</p>
+          )}
           {item.email && (
             <a
               href={`mailto:${item.email}`}
-              className="text-sm text-blue-600 underline"
+              className="text-sm text-blue-600 underline mt-2 block"
             >
               {item.email}
             </a>
@@ -43,55 +67,122 @@ const Page = () => {
     </div>
   );
 
-  const renderThreeColumnCardView = (list: Member[]) => (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {list.map((item, index) => (
-        <div
-          key={index}
-          className="p-4 bg-gray-100 rounded-lg shadow border border-gray-300"
-        >
-          <h3 className="text-lg font-semibold text-black">{item.name}</h3>
-          <p className="text-sm text-gray-800">{item.department}</p>
-          {item.email && (
-            <a
-              href={`mailto:${item.email}`}
-              className="text-sm text-blue-600 underline"
-            >
-              {item.email}
-            </a>
-          )}
-        </div>
-      ))}
+  const renderHighlightedCard = (
+    member: { Name: string; Position: string; Image: string },
+    title: string,
+    bgColor: string
+  ) => (
+    <div
+      className={`p-6 rounded-xl shadow-lg text-white flex flex-col items-center ${bgColor}`}
+    >
+      <img
+        src={member.Image}
+        alt={member.Name}
+        className="w-32 h-32 rounded-full object-cover mb-4 shadow-md"
+      />
+      <h4 className="text-lg font-semibold uppercase tracking-wide text-gray-100">
+        {title}
+      </h4>
+      <h3 className="text-xl font-bold">{member.Name}</h3>
+      <p className="text-sm mt-2">{member.Position}</p>
     </div>
   );
 
   return (
-    <div className="w-full bg-white text-black py-8 px-6 md:px-12 lg:px-24">
-      <div className="max-w-7xl mx-auto p-8 bg-gray-100 rounded-lg shadow-lg">
-        <h2 className="text-3xl font-bold text-black mb-6 text-center">
-          Organizing and Advisory Committee
-        </h2>
-        {renderTwoColumnCardView(organizingCommittee)}
+    <div className="w-full bg-gray-50 text-black py-12 px-6 md:px-12 lg:px-24">
+      <div className="max-w-7xl mx-auto">
+        <div className="p-8 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg shadow-lg text-white mb-12 text-center">
+          <h1 className="text-5xl font-bold">Organizing and Advisory Committees</h1>
+          <p className="mt-4 text-lg">
+            Meet the visionary leaders and dedicated teams behind our success!
+          </p>
+        </div>
 
-        <h2 className="text-2xl font-bold text-black mt-12 mb-6 text-center">
-          Scholar Organizing Secretaries
-        </h2>
-        {renderThreeColumnCardView(scholarSecretaries)}
+        {/* Highlighted Section for Chief Patron, Patron, Organising Chairperson */}
+        <section className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+          {renderHighlightedCard(
+            ChiefPatron,
+            "Chief Patron",
+            "bg-gradient-to-br from-blue-500 to-teal-500"
+          )}
+          {renderHighlightedCard(
+            Patron,
+            "Patron",
+            "bg-gradient-to-br from-purple-500 to-pink-500"
+          )}
+          {renderHighlightedCard(
+            OrganisingChairperson,
+            "Organising Chairperson",
+            "bg-gradient-to-br from-green-500 to-emerald-500"
+          )}
+        </section>
 
-        <h2 className="text-2xl font-bold text-black mt-12 mb-6 text-center">
-          Scholar Organizing Coordinators
-        </h2>
-        {renderThreeColumnCardView(scholarCoordinators)}
+        {/* Co-Patrons Section */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold text-gray-800 mb-6 text-center">
+            Co-Patrons
+          </h2>
+          {renderListCards(transformKeys(CoPatrons), "grid-cols-1 md:grid-cols-2")}
+        </section>
 
-        <h2 className="text-2xl font-bold text-black mt-12 mb-6 text-center">
-          Special Chairs
-        </h2>
-        {renderTwoColumnCardView(specialChairs)}
+        {/* Chairpersons Section */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold text-gray-800 mb-6 text-center">
+            Chairpersons
+          </h2>
+          {renderListCards(transformKeys(Chairpersons), "grid-cols-1 md:grid-cols-2")}
+        </section>
 
-        <h2 className="text-2xl font-bold text-black mt-12 mb-6 text-center">
-          Technical Chairs
-        </h2>
-        {renderThreeColumnCardView(technicalChairs)}
+        {/* Vice Chairpersons Section */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold text-gray-800 mb-6 text-center">
+            Vice Chairpersons
+          </h2>
+          {renderListCards(transformKeys(ViceChairpersons), "grid-cols-1 md:grid-cols-3")}
+        </section>
+
+        {/* Organizing Committee Section */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold text-gray-800 mb-6 text-center">
+            Organizing Committee
+          </h2>
+          {renderListCards(organizingCommittee, "grid-cols-1 md:grid-cols-2")}
+        </section>
+
+        {/* Scholar Organizing Committee Section */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold text-gray-800 mb-6 text-center">
+            Scholar Organizing Committee
+          </h2>
+          {renderListCards(scholarOrganizingCommittee, "grid-cols-1 md:grid-cols-3")}
+        </section>
+
+        {/* Special Chairs Section */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold text-gray-800 mb-6 text-center">
+            Special Chairs
+          </h2>
+          {renderListCards(specialChairs, "grid-cols-1 md:grid-cols-2")}
+        </section>
+
+        {/* National Advisory Committee Section */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold text-gray-800 mb-6 text-center">
+            National Advisory Committee
+          </h2>
+          {renderListCards(nationalAdvisoryCommittee, "grid-cols-1 md:grid-cols-2")}
+        </section>
+
+        {/* International Advisory Committee Section */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold text-gray-800 mb-6 text-center">
+            International Advisory Committee
+          </h2>
+          {renderListCards(
+            internationalAdvisoryCommittee,
+            "grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+          )}
+        </section>
       </div>
     </div>
   );

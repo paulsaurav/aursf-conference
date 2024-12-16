@@ -24,10 +24,18 @@ const page = () => {
               </tr>
               <tr>
                 <th className="px-4 py-2 border border-gray-300"></th>
-                <th className="px-4 py-2 border border-gray-300">Indian Participants</th>
-                <th className="px-4 py-2 border border-gray-300">Non-Indian Participants</th>
-                <th className="px-4 py-2 border border-gray-300">Indian Participants</th>
-                <th className="px-4 py-2 border border-gray-300">Non-Indian Participants</th>
+                <th className="px-4 py-2 border border-gray-300">
+                  Indian Participants
+                </th>
+                <th className="px-4 py-2 border border-gray-300">
+                  Non-Indian Participants
+                </th>
+                <th className="px-4 py-2 border border-gray-300">
+                  Indian Participants
+                </th>
+                <th className="px-4 py-2 border border-gray-300">
+                  Non-Indian Participants
+                </th>
               </tr>
             </thead>
             <tbody>
@@ -50,7 +58,9 @@ const page = () => {
                 <td className="px-4 py-2 border border-gray-300">-</td>
               </tr>
               <tr>
-                <td className="px-4 py-2 border border-gray-300">Faculty/Scientist</td>
+                <td className="px-4 py-2 border border-gray-300">
+                  Faculty/Scientist
+                </td>
                 <td className="px-4 py-2 border border-gray-300">5000 INR</td>
                 <td className="px-4 py-2 border border-gray-300">100 USD</td>
                 <td className="px-4 py-2 border border-gray-300">6000 INR</td>
@@ -80,27 +90,42 @@ const page = () => {
         <div className="mb-6">
           <h3 className="text-xl font-bold text-black mb-4">Account Details</h3>
           <p className="text-gray-800 leading-relaxed text-left">
-            <strong>Account Name:</strong> [] <br />
-            <strong>Bank:</strong> [] <br />
-            <strong>Branch:</strong> [] <br />
-            <strong>A/C No.:</strong> [] <br />
-            <strong>IFSC:</strong> []
+            <strong>Account Name:</strong> Assam University Project A/C II{" "}
+            <br />
+            <strong>Bank:</strong> UCO Bank <br />
+            <strong>Branch:</strong> Assam University, Silchar, 788011 <br />
+            <strong>A/C No.:</strong> 20050110035450 <br />
+            <strong>IFSC:</strong> UCBA0002005
           </p>
         </div>
 
         {/* Form of Registration */}
         <div className="mb-6">
-          <h3 className="text-xl font-bold text-black mb-4">Form of Registration</h3>
+          <h3 className="text-xl font-bold text-black mb-4">
+            Form of Registration
+          </h3>
           <p className="text-gray-800 leading-relaxed text-left">
-            Please fill out the registration form using the following link: <br />
+            Please fill out the registration form using the following link:{" "}
+            <br />
             <a
-              href="[]"
+              href="https://forms.gle/66KpkjGkpq3aXUmH7"
               className="text-blue-600 hover:underline"
               target="_blank"
               rel="noopener noreferrer"
             >
               Google Form Link
             </a>
+            <br />
+            After completing the payment, please send the payment receipt,
+            abstract, full paper to{" "}
+            <span>
+              <a
+                href="mailto:yrs.aursf@gmail.com"
+                className="text-blue-600 hover:underline"
+              >
+                yrs.aursf@gmail.com
+              </a>
+            </span>
           </p>
         </div>
 
@@ -109,7 +134,10 @@ const page = () => {
           <h3 className="text-xl font-bold text-black mb-4">Contact Us</h3>
           <p className="text-gray-800 leading-relaxed text-left">
             <strong>Email:</strong>{" "}
-            <a href="mailto:yrs.aursf@gmail.com" className="text-blue-600 hover:underline">
+            <a
+              href="mailto:yrs.aursf@gmail.com"
+              className="text-blue-600 hover:underline"
+            >
               yrs.aursf@gmail.com
             </a>
           </p>
