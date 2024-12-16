@@ -199,7 +199,8 @@ const page = () => {
           1. Only original and unpublished work is eligible for publication. <br />
           2. The full-length articles must be in .docx, .doc, or in latex format as per respective
           journals requirements. <br />
-          3. The reference must be as per respective journals format.
+          3. The reference must be as per respective journals format. <br />
+          <span><a href="https://docs.google.com/document/d/1agXZiJ-IC8npcAT23RjRxg0lT23NRFsx/edit" className="hover:text-blue-700 underline">Click here to check the paper submission details</a></span>
         </p>
       </div>
 

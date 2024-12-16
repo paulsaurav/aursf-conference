@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 
 const page = () => {
@@ -8,9 +9,9 @@ const page = () => {
           Submission of Abstract
         </h2>
         <div className="overflow-x-auto">
-          <h3>Submission Start Date: 20th Nov 2024</h3>
-          <h3>Last Date of Submission: 20th Dec 2024</h3>
-          <h3>Declaration of Acceptance of Abstract: 31st Dec 2024</h3>
+          <h3>Submission Start Date: 20th Dec 2024</h3>
+          <h3>Last Date of Submission: 31st Jan 2025</h3>
+          <h3>Declaration of Acceptance of Abstract: 10th Feb 2025</h3>
         </div>
       </div>
       <br />
