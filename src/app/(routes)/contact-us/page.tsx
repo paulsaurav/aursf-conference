@@ -40,7 +40,13 @@ const page = () => {
             <p>Amit Kumar Roy</p>
             <a href="tel:919854171541">+91 9854 171541</a>
           </div>
-          <div>right</div>
+          <div>
+            <br />
+            <br />
+            <h2>Eureka Spectrum:</h2>
+            <p>Bhaskar Goswami</p>
+            <a href="tel:917002744561">+91 7002 744561</a>
+          </div>
         </div>
         {/* Contact Form */}
         {/* <div className="grid md:grid-cols-2 gap-8">

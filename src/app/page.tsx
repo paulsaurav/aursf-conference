@@ -14,7 +14,7 @@ export default function Home() {
     <SubHero />
     <ConferenceOverview />
     <Motivation />
-    <ExpectedOutcomes />
+   {/*  <ExpectedOutcomes /> */}
     <Notices />
     <VenueAndLocation />
     <Sponsors />

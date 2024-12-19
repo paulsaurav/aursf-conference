@@ -17,11 +17,7 @@ const Hero: React.FC = () => {
           <span className="block">and Rural Science Congress</span>
         </h1>
 
-        {/* Subtitle */}
-        <p className="text-lg sm:text-xl md:text-2xl mt-6 font-light max-w-3xl mx-auto leading-relaxed">
-          Integrating Science, Society, and Culture <br />
-          for a Sustainable Future
-        </p>
+        
 
         {/* Organizer Details */}
         <p className="text-2xl font-bold mt-8 max-w-4xl mx-auto leading-relaxed">
@@ -35,6 +31,14 @@ const Hero: React.FC = () => {
           <span className="font-bold">
             Prof. H. S. Srivastava Foundation for Science & Society
           </span>.
+          <br />
+        <p>on</p>
+        </p>
+       
+        {/* Subtitle */}
+        <p className="text-lg sm:text-xl md:text-2xl mt-6 font-light max-w-3xl mx-auto leading-relaxed">
+          Integrating Science, Society, and Culture <br />
+          for a Sustainable Future
         </p>
         <br />
         <h2 className="text-3xl font-bold">Date: 6th to 8th March 2025</h2>
