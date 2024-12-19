@@ -11,9 +11,39 @@ const page = () => {
         <p className="text-center text-gray-700 text-lg mb-12">
           Have questions? Reach out to us using the form below or through our contact details.
         </p>
-
+        <p className="text-center text-gray-700 text-lg mb-12">You can write us at <a className="hover:text-blue-700" href="mailto:yrs.aursf@gmail.com">yrs.aursf@gmail.com</a></p>
+        <div>
+          <h2>Organizing Chairperson/Convenor</h2>
+          <p>Prof. Piyush Pandey</p>
+          <a href="tel:917896748886">+91 7896 748886</a>
+        </div>
+        <br />
+        <div className="flex justify-between">
+          <div>
+            <h2>Travel:</h2>
+            <p>Bishal Sonar</p>
+            <a href="tel:917002919229">+91 70029 19229</a>
+            <br />
+            <p>Joy Deb</p>
+            <a href="tel:917086675570">+91 7086 675570</a>
+            <br />
+            <br />
+            <h2>Payment and Registration:</h2>
+            <p>Bhaskar Goswami</p>
+            <a href="tel:917002744561">+91 7002 744561</a>
+            <br />
+            <br />
+            <h2>For Sponsorship:</h2>
+            <p>Animekh Hazarika</p>
+            <a href="tel:919678849485">+91 9678 849485</a>
+            <br />
+            <p>Amit Kumar Roy</p>
+            <a href="tel:919854171541">+91 9854 171541</a>
+          </div>
+          <div>right</div>
+        </div>
         {/* Contact Form */}
-        <div className="grid md:grid-cols-2 gap-8">
+        {/* <div className="grid md:grid-cols-2 gap-8">
           <div className="space-y-6">
             <input
               type="text"
@@ -35,10 +65,10 @@ const page = () => {
             >
               Send Message
             </button>
-          </div>
+          </div> */}
 
           {/* Contact Details */}
-          <div className="space-y-8 text-gray-700">
+          {/* <div className="space-y-8 text-gray-700">
             <div className="flex items-center gap-4">
               <div className="p-4 bg-blue-500 text-white rounded-full shadow-lg">
                 <svg
@@ -114,7 +144,7 @@ const page = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -6,31 +6,32 @@ const page = () => {
     <div className="w-full min-h-screen bg-white text-black py-8 px-6 md:px-12 lg:px-24">
       <div className="max-w-3xl mx-auto p-8 bg-gray-100 rounded-lg shadow-lg">
         <h2 className="text-3xl font-bold text-black mb-4">
-          Submission of Abstract
+          Important Dates
         </h2>
         <div className="overflow-x-auto">
           <h3>Submission Start Date: 20th Dec 2024</h3>
           <h3>Last Date of Submission: 31st Jan 2025</h3>
           <h3>Declaration of Acceptance of Abstract: 10th Feb 2025</h3>
+          <h3>Conference Dates: 6th - 8th March 2025</h3>
         </div>
       </div>
       <br />
-      <div className="max-w-3xl mx-auto p-8 bg-gray-100 rounded-lg shadow-lg">
+      {/* <div className="max-w-3xl mx-auto p-8 bg-gray-100 rounded-lg shadow-lg">
         <h2 className="text-3xl font-bold text-black mb-4">
           Submission of Paper
         </h2>
         <div className="overflow-x-auto">
           <h3>Full length article submission: 31st January 2025</h3>
         </div>
-      </div>
+      </div> */}
       <br />
       <div className="max-w-5xl mx-auto p-8 bg-gray-100 rounded-lg shadow-lg">
         <h2 className="text-3xl font-bold text-black mb-4">
-          Programme Schedule
+          Programme Schedule(To be updated soon)
         </h2>
 
         {/* Day 1 */}
-        <h3 className="text-2xl font-bold mt-6 mb-4">DAY 1, 25-02-2025</h3>
+        {/* <h3 className="text-2xl font-bold mt-6 mb-4">DAY 1, 25-02-2025</h3>
         <table className="table-auto border-collapse w-full text-left mb-6">
           <thead>
             <tr>
@@ -125,7 +126,7 @@ const page = () => {
         </table>
 
         {/* Day 2 */}
-        <h3 className="text-2xl font-bold mt-6 mb-4">DAY 2, 26-02-2025</h3>
+        {/* <h3 className="text-2xl font-bold mt-6 mb-4">DAY 2, 26-02-2025</h3>
         <table className="table-auto border-collapse w-full text-left mb-6">
           <thead>
             <tr>
@@ -235,10 +236,10 @@ const page = () => {
               </td>
             </tr>
           </tbody>
-        </table>
+        </table> */}
 
         {/* Day 3 */}
-        <h3 className="text-2xl font-bold mt-6 mb-4">DAY 3, 27-02-2025</h3>
+        {/* <h3 className="text-2xl font-bold mt-6 mb-4">DAY 3, 27-02-2025</h3>
         <table className="table-auto border-collapse w-full text-left mb-6">
           <thead>
             <tr>
@@ -297,7 +298,7 @@ const page = () => {
         <p className="font-semibold">
           Lunch (1:30 PM – 2:30 PM) <br />
           Valedictory Session (2:30 PM onwards)
-        </p>
+        </p> */} 
       </div>
     </div>
   );

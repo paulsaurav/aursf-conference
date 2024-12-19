@@ -8,8 +8,9 @@ const Navbar = () => {
     <>
       <div className="navbar bg-white text-black px-6 lg:px-24 py-6 border-b border-gray-300 flex flex-col items-center">
         {/* Top Section with Logos */}
-        <div className="w-full flex items-center justify-center gap-8 pb-4 border-b border-gray-300">
-          <Link href="https://aursf.in/" target="_blank">
+        <div className="w-full flex items-center justify-between gap-8 pb-4 border-b border-gray-300">
+          <div className="text-[2rem] font-bold text-blue-900"><h2>Assam University</h2></div>
+          <div className="flex flex-row"><Link href="https://aursf.in/" target="_blank">
             <Image src="/logo-aursf.png" alt="AURSF Logo" width={80} height={80} />
           </Link>
           <Link href="/" target="_blank">
@@ -17,7 +18,9 @@ const Navbar = () => {
           </Link>
           <Link href="http://aus.ac.in" target="_blank">
             <Image src="/another.png" alt="Another Logo" width={80} height={80} />
-          </Link>
+          </Link></div>
+          
+          
         </div>
 
         {/* Mobile View Dropdown */}
@@ -64,6 +67,9 @@ const Navbar = () => {
               <li>
                 <Link href="/contact-us">Contact Us</Link>
               </li>
+              <li>
+                <Link href="/sponsorship-opportunities">Sponsorship Opportunities</Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -89,6 +95,9 @@ const Navbar = () => {
             <li>
               <Link href="/keynote-speakers">Keynote Speakers</Link>
             </li>
+            <li>
+                <Link href="/sponsorship-opportunities">Sponsorship Opportunities</Link>
+              </li>
             <li>
               <Link href="/contact-us">Contact Us</Link>
             </li>

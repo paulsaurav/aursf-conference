@@ -107,13 +107,14 @@ const page = () => {
               </tr>
               <tr>
                 <td className="px-4 py-2 border border-gray-300">
-                  Community, Culture, and Innovation in Social Sciences
+                  Social Science perspectives for Sustainable Development 
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  - Engaging Communities for Inclusive Growth <br />
-                  - Heritage and Identity in a Globalized Context <br />
-                  - Societal Challenges and Community-Led Initiatives <br />
-                  - Entrepreneurship and Innovation in Developing Economies
+                  - Governance, Policies and Human Rights <br />
+                  - Youth, Gender and Social Change/Transformation <br />
+                  - Sustainable Rurual, Urban and Tribal Development <br />
+                  - Knowledge institution and Community Engagement <br />
+                  - Contemporary Social Issues and SDGs for Sustainable Solutions <br />
                 </td>
               </tr>
 
@@ -128,7 +129,7 @@ const page = () => {
                 <td className="px-4 py-2 border border-gray-300">
                   - Precision Medicine Revolution: Genomics and Proteomics on the Cutting Edge <br />
                   - Disease Modelling and Drug Discovery: Bioinformatics as the New Frontier <br />
-                  - Harnessing Microbial Power: Innovation for Health and Industrial Transformation
+                  - Harnessing Microbial Power: Innovation for Health, Environment and  Industrial Transformation
                   <br />
                   - Engineering Life: Biotechnological Breakthroughs in Bio-production <br />
                   - Biodiversity at Risk: Strategies for Conservation and Ecosystem Health <br />
@@ -187,14 +188,14 @@ const page = () => {
         <h2 className="text-3xl font-bold text-black mb-4">Publication Details</h2>
         <p className="text-gray-800 leading-relaxed">
           Papers selected from the Oral / Poster presentations will be published in Scopus / Web of
-          Science / ABDC / UGC-care listed journals.
+          Science / ABDC / UGC-care listed journals following due review process.
         </p>
       </div>
 
       {/* Paper Submission Details */}
       <br />
       <div className="max-w-3xl mx-auto p-8 bg-gray-100 rounded-lg shadow-lg text-center">
-        <h2 className="text-3xl font-bold text-black mb-4">Paper Submission Details</h2>
+        <h2 className="text-3xl font-bold text-black mb-4">Template for Abstract Submission</h2>
         <p className="text-gray-800 leading-relaxed text-left">
           1. Only original and unpublished work is eligible for publication. <br />
           2. The full-length articles must be in .docx, .doc, or in latex format as per respective

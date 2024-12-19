@@ -24,16 +24,16 @@ const Hero: React.FC = () => {
         </p>
 
         {/* Organizer Details */}
-        <p className="text-sm sm:text-md md:text-lg font-light mt-8 max-w-4xl mx-auto leading-relaxed">
-          Organised by{" "}
-          <span className="font-medium">
+        <p className="text-2xl font-bold mt-8 max-w-4xl mx-auto leading-relaxed">
+          Organised by{" "} <br />
+          <span className="font-bold">
             Assam University Research Scholars&apos; Forum (AURSF)
           </span>, in collaboration with{" "}
-          <span className="font-medium">
+          <span className="font-bold">
             Internal Quality Assurance Cell (IQAC), Assam University, Silchar
           </span>, and{" "}
-          <span className="font-medium">
-            Prof. H. S. Srivastva Foundation for Science & Society
+          <span className="font-bold">
+            Prof. H. S. Srivastava Foundation for Science & Society
           </span>.
         </p>
         <br />
