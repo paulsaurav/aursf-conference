@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
         {/* Main Title */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold font-serif tracking-wide leading-tight">
           International Young Researchers&apos; Conclave <br />
-          <span className="block">and Rural Science Congress</span>
+          <span className="block">and Rural Science Congress (IYRCRSC-2025)</span>
         </h1>
 
         
