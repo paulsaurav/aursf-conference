@@ -117,14 +117,14 @@ const page = () => {
               Google Form Link
             </a>
             <br />
-            After completing the payment, please send the payment receipt,
-            abstract, full paper to{" "}
+            After completing the payment, please send the payment receipt and
+            abstract to{" "}
             <span>
               <a
-                href="mailto:yrs.aursf@gmail.com"
+                href="mailto:yrc.aursf@gmail.com"
                 className="text-blue-600 hover:underline"
               >
-                yrs.aursf@gmail.com
+                yrc.aursf@gmail.com
               </a>
             </span>
           </p>
@@ -136,10 +136,10 @@ const page = () => {
           <p className="text-gray-800 leading-relaxed text-left">
             <strong>Email:</strong>{" "}
             <a
-              href="mailto:yrs.aursf@gmail.com"
+              href="mailto:yrc.aursf@gmail.com"
               className="text-blue-600 hover:underline"
             >
-              yrs.aursf@gmail.com
+              yrc.aursf@gmail.com
             </a>
           </p>
         </div>
