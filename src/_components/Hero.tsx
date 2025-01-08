@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Link from "next/link";
 
 const Hero: React.FC = () => {
   return (
@@ -38,6 +39,9 @@ const Hero: React.FC = () => {
         </p>
         <br />
         <h2 className="text-3xl font-bold">Date: 6th to 8th March 2025</h2>
+        <br />
+        <Link href={"/brochure.pdf"}><button className="btn btn-active btn-secondary">Download Brochure</button></Link>
+        
       </div>
     </div>
   );
