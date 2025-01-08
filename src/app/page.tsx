@@ -1,5 +1,4 @@
 import { ConferenceOverview } from "@/_components/ConferenceOverview";
-import ExpectedOutcomes from "@/_components/ExpectedOutcomes";
 import  Hero  from "@/_components/Hero";
 import Motivation from "@/_components/Motivation";
 import Notices from "@/_components/Notices";
@@ -14,7 +13,6 @@ export default function Home() {
     <SubHero />
     <ConferenceOverview />
     <Motivation />
-    <ExpectedOutcomes />
     <Notices />
     <VenueAndLocation />
     <Sponsors />

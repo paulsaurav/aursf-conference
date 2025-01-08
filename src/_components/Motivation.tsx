@@ -5,28 +5,15 @@ const Motivation = () => {
   return (
     <div className="w-full bg-white text-black py-16 px-6 md:px-12 lg:px-24">
       <div className="max-w-7xl mx-auto p-8 bg-gray-100 rounded-lg shadow-lg">
-        <h2 className="text-3xl font-bold text-black mb-6 text-center">Motivation</h2>
+        <h2 className="text-3xl font-bold text-black mb-6 text-center">Eureka Spectrum</h2>
+        <p className="text-gray-800 text-center leading-relaxed mb-6">
+          A space to showcase innovations, new ideas and artistics expressions.
+        </p>
         <p className="text-gray-800 text-justify leading-relaxed mb-6">
-          The Young Researchers&apos; Conclave is an international multidisciplinary conference that
-          stands as a dynamic call to action, fueled by the belief that the path to sustainable
-          development requires a comprehensive, collaborative approach across all fields of study.
-          Addressing today&apos;s global challenges—ranging from environmental crises and health
-          inequities to economic disparities and technological innovation—demands insights that
-          transcend the boundaries of any single discipline. This Conclave brings together young
-          scholars and researchers from the sciences, humanities, technology, and arts, providing a
-          platform where diverse perspectives converge to forge groundbreaking, actionable
-          solutions.
+        Eureka Spectrum is a vibrant confluence of creativity, innovation, and enterprise, open to both university scholars and innovators from beyond its campus. This dynamic exhibition offers a platform to showcase groundbreaking innovations, an art gallery to celebrate and sell creative works, and opportunities for startups to display their visionary ideas. With industry product displays, promotional spaces, engaging discussions, and a variety of food stalls, Eureka Spectrum fosters collaboration between academia, business, and the creative arts. Welcoming participants from diverse backgrounds, with proper sponsorships, it&apos;s more than an expo—it&apos;s a celebration of ingenuity and a catalyst for new opportunities.
         </p>
-        <p className="text-gray-800 text-justify leading-relaxed">
-          Designed as more than an academic event, this Conclave serves as a catalyst for building
-          alliances that prioritize affordability, accessibility, and scalability in their
-          approaches to sustainable development. By fostering partnerships that bridge academia,
-          industry, and society, the Conclave aims to empower young researchers and students alike
-          to share their work, broaden their impact, and engage in dialogues that shape a resilient
-          and equitable world. Through this collective vision, the Conclave aspires to catalyze
-          meaningful change by advancing knowledge that addresses real-world issues in impactful
-          and enduring ways.
-        </p>
+        <br />
+        <p>To know more <a href="/contact-us" className="text-blue-600">Contact Us</a></p>
       </div>
     </div>
   );

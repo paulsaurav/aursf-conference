@@ -7,7 +7,7 @@ const page = () => {
       {/* Registration Fees Section */}
       <div className="max-w-7xl mx-auto p-8 bg-gray-100 rounded-lg shadow-lg">
         <h2 className="text-3xl font-bold text-black mb-6 text-center">
-          Registration Fees
+          Registration Fees<sup>*</sup>
         </h2>
         <div className="overflow-x-auto">
           <table className="table-auto w-full text-left text-black border-collapse border border-gray-300">
@@ -19,7 +19,7 @@ const page = () => {
                   Early Bird
                 </th>
                 <th className="px-4 py-2 border border-gray-300" colSpan={2}>
-                  Late Registration
+                  Late Registration (Starting from 1st Feb 2025 to 20th Feb 2025)
                 </th>
               </tr>
               <tr>
@@ -43,7 +43,7 @@ const page = () => {
                 <td className="px-4 py-2 border border-gray-300">
                   PG Student/Research Scholar from Other Institutes
                 </td>
-                <td className="px-4 py-2 border border-gray-300">3000 INR</td>
+                <td className="px-4 py-2 border border-gray-300">3500 INR</td>
                 <td className="px-4 py-2 border border-gray-300">60 USD</td>
                 <td className="px-4 py-2 border border-gray-300">4000 INR</td>
                 <td className="px-4 py-2 border border-gray-300">100 USD</td>
@@ -77,6 +77,7 @@ const page = () => {
               </tr>
             </tbody>
           </table>
+          <p>* Registration fee includes access to the conference kit, lectures and poster sessions, breakfast, lunch, dinner, brochure and Expo(Innovator&apos;s Arena)</p>
         </div>
       </div>
 
@@ -116,14 +117,14 @@ const page = () => {
               Google Form Link
             </a>
             <br />
-            After completing the payment, please send the payment receipt,
-            abstract, full paper to{" "}
+            After completing the payment, please send the payment receipt and
+            abstract to{" "}
             <span>
               <a
-                href="mailto:yrs.aursf@gmail.com"
+                href="mailto:yrc.aursf@gmail.com"
                 className="text-blue-600 hover:underline"
               >
-                yrs.aursf@gmail.com
+                yrc.aursf@gmail.com
               </a>
             </span>
           </p>
@@ -135,10 +136,10 @@ const page = () => {
           <p className="text-gray-800 leading-relaxed text-left">
             <strong>Email:</strong>{" "}
             <a
-              href="mailto:yrs.aursf@gmail.com"
+              href="mailto:yrc.aursf@gmail.com"
               className="text-blue-600 hover:underline"
             >
-              yrs.aursf@gmail.com
+              yrc.aursf@gmail.com
             </a>
           </p>
         </div>

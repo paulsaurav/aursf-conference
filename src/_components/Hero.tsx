@@ -15,27 +15,31 @@ const Hero: React.FC = () => {
         {/* Main Title */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold font-serif tracking-wide leading-tight">
           International Young Researchers&apos; Conclave <br />
-          <span className="block">and Rural Science Congress</span>
+          <span className="block">and Rural Science Congress (IYRCRSC-2025)</span>
         </h1>
 
+        
+
+        {/* Organizer Details */}
+        <p className="text-2xl font-bold mt-8 max-w-4xl mx-auto leading-relaxed">
+          Organised by{" "} <br />
+          <span className="font-bold">
+            Assam University Research Scholars&apos; Forum (AURSF)
+          </span>, in collaboration with{" "}
+          <span className="font-bold">
+            Internal Quality Assurance Cell (IQAC), Assam University, Silchar
+          </span>, and{" "}
+          <span className="font-bold">
+            Prof. H. S. Srivastava Foundation for Science & Society
+          </span>.
+          <br />
+        <p>on</p>
+        </p>
+       
         {/* Subtitle */}
         <p className="text-lg sm:text-xl md:text-2xl mt-6 font-light max-w-3xl mx-auto leading-relaxed">
           Integrating Science, Society, and Culture <br />
           for a Sustainable Future
-        </p>
-
-        {/* Organizer Details */}
-        <p className="text-sm sm:text-md md:text-lg font-light mt-8 max-w-4xl mx-auto leading-relaxed">
-          Organised by{" "}
-          <span className="font-medium">
-            Assam University Research Scholars&apos; Forum (AURSF)
-          </span>, in collaboration with{" "}
-          <span className="font-medium">
-            Internal Quality Assurance Cell (IQAC), Assam University, Silchar
-          </span>, and{" "}
-          <span className="font-medium">
-            Prof. H. S. Srivastva Foundation for Science & Society
-          </span>.
         </p>
         <br />
         <h2 className="text-3xl font-bold">Date: 6th to 8th March 2025</h2>

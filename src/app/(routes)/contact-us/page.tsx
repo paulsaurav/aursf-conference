@@ -11,9 +11,57 @@ const page = () => {
         <p className="text-center text-gray-700 text-lg mb-12">
           Have questions? Reach out to us using the form below or through our contact details.
         </p>
-
+        <p className="text-center text-gray-700 text-lg mb-12">You can write us at <a className="hover:text-blue-700" href="mailto:yrc.aursf@gmail.com">yrc.aursf@gmail.com</a></p>
+        <div className="px-40">
+          <h2 className="font-bold">Organizing Chairperson/Convenor</h2>
+          <p>Prof. Piyush Pandey</p>
+          <a href="tel:917896748886">+91 7896 748886</a>
+        </div>
+        <br />
+        <div className="flex justify-around">
+          <div>
+            <h2 className="font-bold">Travel:</h2>
+            <p>Bishal Sonar</p>
+            <a href="tel:917002919229">+91 70029 19229</a>
+            <br />
+            <p>Joy Deb</p>
+            <a href="tel:917086675570">+91 7086 675570</a>
+            <br />
+            <br />
+            <h2 className="font-bold">Payment and Registration:</h2>
+            <p>Bhaskar Goswami</p>
+            <a href="tel:917002744561">+91 7002 744561</a>
+            <br />
+            <br />
+            <h2 className="font-bold">For Sponsorship:</h2>
+            <p>Animekh Hazarika</p>
+            <a href="tel:919678849485">+91 9678 849485</a>
+            <br />
+            <p>Amit Kumar Roy</p>
+            <a href="tel:919854171541">+91 9854 171541</a>
+          </div>
+          <div>
+            <br />
+            <br />
+            <h2 className="font-bold">Eureka Spectrum:</h2>
+            <p>Bhaskar Goswami</p>
+            <a href="tel:917002744561">+91 7002 744561</a>
+            <br />
+            <p>Amit Kumar Roy</p>
+            <a href="tel:919854171541">+91 9854 171541</a>
+            <br />
+            <p>Animekh Hazarika</p>
+            <a href="tel:919678849485">+91 9678 849485</a>
+            <br />
+            <p>Saurav Paul</p>
+            <a href="tel:917002909568">+91 7002 909568</a>
+            <br />
+            <p>Sandeep Das</p>
+            <a href="tel:917002372389">+91 7002 372389</a>
+          </div>
+        </div>
         {/* Contact Form */}
-        <div className="grid md:grid-cols-2 gap-8">
+        {/* <div className="grid md:grid-cols-2 gap-8">
           <div className="space-y-6">
             <input
               type="text"
@@ -35,10 +83,10 @@ const page = () => {
             >
               Send Message
             </button>
-          </div>
+          </div> */}
 
           {/* Contact Details */}
-          <div className="space-y-8 text-gray-700">
+          {/* <div className="space-y-8 text-gray-700">
             <div className="flex items-center gap-4">
               <div className="p-4 bg-blue-500 text-white rounded-full shadow-lg">
                 <svg
@@ -80,10 +128,10 @@ const page = () => {
               <p>
                 <strong>Email:</strong>{" "}
                 <a
-                  href="mailto:yrs.aursf@gmail.com"
+                  href="mailto:yrc.aursf@gmail.com"
                   className="text-blue-500 hover:underline"
                 >
-                  yrs.aursf@gmail.com
+                  yrc.aursf@gmail.com
                 </a>
               </p>
             </div>
@@ -114,7 +162,7 @@ const page = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
