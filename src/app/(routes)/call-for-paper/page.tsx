@@ -213,6 +213,13 @@ const page = () => {
           done as per respective journals review criteria.
         </p>
       </div>
+      <br />
+      <div className="max-w-3xl mx-auto p-8 bg-gray-100 rounded-lg shadow-lg text-center">
+        <h2 className="text-3xl font-bold text-black mb-4">Template for E-Proceeding</h2>
+        <p className="text-gray-800 leading-relaxed text-left">
+          Proceeding will be updated soon
+        </p>
+      </div>
     </div>
   );
 };

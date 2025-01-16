@@ -3,12 +3,14 @@ import  Hero  from "@/_components/Hero";
 import Motivation from "@/_components/Motivation";
 import Notices from "@/_components/Notices";
 import Sponsors from "@/_components/Sponsors";
+import Strip from "@/_components/Strip";
 import SubHero from "@/_components/SubHero";
 import { VenueAndLocation } from "@/_components/VenueAndLocation";
 
 export default function Home() {
   return (
     <>
+    <Strip />
     <Hero />
     <SubHero />
     <ConferenceOverview />

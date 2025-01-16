@@ -1,4 +1,5 @@
 "use client"
+import ImportantDatesStrip from "@/_components/ImportantDatesStrip";
 import React from "react";
 
 const page = () => {
@@ -17,6 +18,7 @@ const page = () => {
         </div>
       </div>
       <br />
+      <ImportantDatesStrip />
       {/* <div className="max-w-3xl mx-auto p-8 bg-gray-100 rounded-lg shadow-lg">
         <h2 className="text-3xl font-bold text-black mb-4">
           Submission of Paper
