@@ -21,9 +21,9 @@ const page = () => {
         <div className="flex justify-around">
           <div>
             <h2 className="font-bold">Travel:</h2>
-            <p>Bishal Sonar</p>
+            {/* <p>Bishal Sonar</p>
             <a href="tel:917002919229">+91 70029 19229</a>
-            <br />
+            <br /> */}
             <p>Joy Deb</p>
             <a href="tel:917086675570">+91 7086 675570</a>
             <br />

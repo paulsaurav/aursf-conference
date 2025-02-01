@@ -10,11 +10,11 @@ const page = () => {
           Important Dates
         </h2>
         <div className="overflow-x-auto">
-          <h3>Submission Start Date: 20th Dec 2024</h3>
-          <h3>Last Date of Submission: 31st Jan 2025</h3>
-          <h3>Declaration of Acceptance of Abstract: 10th Feb 2025</h3>
-          <h3>Late Registration Date: 1st Feb 2025 to 20th Feb 2025</h3>
+          <h3>Extended Submission Start Date: <s>20th Dec 2024</s> 10th Feb 2025</h3>
+          <h3>Declaration of Acceptance of Abstract:<s>31st Jan 2025</s>15th Feb 2025</h3>
+          <h3>Date of Registration:1st Feb to 20th Feb 2025</h3>
           <h3>Conference Dates: 6th - 8th March 2025</h3>
+          <h3>Full length artile submission: Will be notified to the selected authors via e-mail after the conference</h3>
         </div>
       </div>
       <br />

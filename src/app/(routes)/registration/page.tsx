@@ -16,11 +16,11 @@ const page = () => {
               <tr>
                 <th className="px-4 py-2 border border-gray-300">Particular</th>
                 <th className="px-4 py-2 border border-gray-300" colSpan={2}>
-                  Early Bird
+                  Registration
                 </th>
-                <th className="px-4 py-2 border border-gray-300" colSpan={2}>
+                {/* <th className="px-4 py-2 border border-gray-300" colSpan={2}>
                   Late Registration (Starting from 1st Feb 2025 to 20th Feb 2025)
-                </th>
+                </th> */}
               </tr>
               <tr>
                 <th className="px-4 py-2 border border-gray-300"></th>
@@ -30,12 +30,12 @@ const page = () => {
                 <th className="px-4 py-2 border border-gray-300">
                   Non-Indian Participants
                 </th>
-                <th className="px-4 py-2 border border-gray-300">
+                {/* <th className="px-4 py-2 border border-gray-300">
                   Indian Participants
                 </th>
                 <th className="px-4 py-2 border border-gray-300">
                   Non-Indian Participants
-                </th>
+                </th> */}
               </tr>
             </thead>
             <tbody>
@@ -45,8 +45,8 @@ const page = () => {
                 </td>
                 <td className="px-4 py-2 border border-gray-300">3500 INR</td>
                 <td className="px-4 py-2 border border-gray-300">60 USD</td>
-                <td className="px-4 py-2 border border-gray-300">4000 INR</td>
-                <td className="px-4 py-2 border border-gray-300">100 USD</td>
+                {/* <td className="px-4 py-2 border border-gray-300">4000 INR</td> */}
+                {/* <td className="px-4 py-2 border border-gray-300">100 USD</td> */}
               </tr>
               <tr>
                 <td className="px-4 py-2 border border-gray-300">
@@ -54,8 +54,8 @@ const page = () => {
                 </td>
                 <td className="px-4 py-2 border border-gray-300">2000 INR</td>
                 <td className="px-4 py-2 border border-gray-300">-</td>
-                <td className="px-4 py-2 border border-gray-300">3000 INR</td>
-                <td className="px-4 py-2 border border-gray-300">-</td>
+                {/* <td className="px-4 py-2 border border-gray-300">3000 INR</td> */}
+                {/* <td className="px-4 py-2 border border-gray-300">-</td> */}
               </tr>
               <tr>
                 <td className="px-4 py-2 border border-gray-300">
@@ -63,8 +63,8 @@ const page = () => {
                 </td>
                 <td className="px-4 py-2 border border-gray-300">5000 INR</td>
                 <td className="px-4 py-2 border border-gray-300">100 USD</td>
-                <td className="px-4 py-2 border border-gray-300">6000 INR</td>
-                <td className="px-4 py-2 border border-gray-300">150 USD</td>
+                {/* <td className="px-4 py-2 border border-gray-300">6000 INR</td> */}
+                {/* <td className="px-4 py-2 border border-gray-300">150 USD</td> */}
               </tr>
               <tr>
                 <td className="px-4 py-2 border border-gray-300">
@@ -72,8 +72,8 @@ const page = () => {
                 </td>
                 <td className="px-4 py-2 border border-gray-300">9000 INR</td>
                 <td className="px-4 py-2 border border-gray-300">150 USD</td>
-                <td className="px-4 py-2 border border-gray-300">11000 INR</td>
-                <td className="px-4 py-2 border border-gray-300">200 USD</td>
+                {/* <td className="px-4 py-2 border border-gray-300">11000 INR</td> */}
+                {/* <td className="px-4 py-2 border border-gray-300">200 USD</td> */}
               </tr>
             </tbody>
           </table>
