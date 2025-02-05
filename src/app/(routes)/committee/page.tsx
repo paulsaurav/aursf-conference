@@ -8,7 +8,7 @@ interface CommitteeMember {
   Position?: string;
   Department?: string;
   Email?: string;
-  Image?: string; // Assuming Image field exists for highlighted cards
+  Image?: string; 
 }
 
 interface CommitteeData {

@@ -1,0 +1,90 @@
+{
+    "Keynote Speakers": [
+        {
+            "name": "Dr. Eklavya Sharma",
+            "title": "Padma Shree, Ecologist",
+            "affiliation": "EX Deputy Director General at International Centre for Integrated Mountain Development (ICIMOD)",
+            "picture": "/speakers/Picture1.jpg"
+        },
+        {
+            "name": "Prof. Sunil Nautiyal",
+            "title": "Director",
+            "affiliation": "G.B. Pant National Institute of Himalayan Environment (NIHE)",
+            "picture": "/speakers/Picture2.jpg"
+        }
+    ],
+    "Plenary Speakers": [
+        {
+            "name": "Prof. Sauren Bandyopadhyay",
+            "title": "Vice Chancellor",
+            "affiliation": "West Bengal State University, Berunanpukuria, Kolkata – 700126, India",
+            "email": "saurenuhb@gmail.com",
+            "picture": "/speakers/Picture3.jpg"
+        },
+        {
+            "name": "Prof. (Dr.) Sajal Nag",
+            "title": "Dean i/c",
+            "affiliation": "Royal School of Humanities and Social Sciences, The Assam Royal Global University",
+            "email": "sajalnag09@gmail.com",
+            "picture": "/speakers/Picture4.jpg"
+        },
+        {
+            "name": "Prof. Pravin Kumar Mishra",
+            "title": "Professor",
+            "affiliation": "Dept. of History, School of Studies in Social Science, Guru Ghasidas Vishwavidyalay, Bilaspur, Chhattisgarh, 495009, India",
+            "email": "praveenmishra02010@gmail.com",
+            "picture": "/speakers/Picture5.jpg"
+        }
+    ],
+    "Invited Speakers": [
+        {
+            "name": "Dr. Akshay Talukdar",
+            "title": "In-charge, National Phytotron Facility, Principal Scientist",
+            "affiliation": "Division of Genetics, ICAR-Indian Agricultural Research Institute, New Delhi, 110012, India",
+            "email": "akshay.talukdar1@gmail.com",
+            "picture": "/speakers/Picture6.jpg"
+        },
+        {
+            "name": "Dr. Alok Das",
+            "title": "Senior Scientist",
+            "affiliation": "Division Of Plant Biotechnology, ICAR-Indian Institute of Pulses Research (IIPR), Kanpur, 208024, India",
+            "email": "alok.das@icar.gov.in",
+            "picture": "/speakers/Picture7.jpg"
+        },
+        {
+            "name": "Prof. S. R. Joshi",
+            "title": "Professor",
+            "affiliation": "Dept. of Biotechnology and Bioinformatics, North-Eastern Hill University, Shillong, Meghalaya, 793022, India",
+            "email": "srjoshi2006@yahoo.co.in, srjoshi@nehu.ac.in",
+            "picture": "/speakers/Picture8.jpg"
+        },
+        {
+            "name": "Dr. Sarangthem Indira Devi",
+            "title": "Scientist-D",
+            "affiliation": "Microbial Resources Division, Institute of Bioresources & Sustainable Development (IBSD), DBT, Takyelpat, Imphal, 795001, India",
+            "email": "sidevi1@yahoo.co.in",
+            "picture": "/speakers/Picture9.jpg"
+        },
+        {
+            "name": "Dr. Dhurjjati Sarma",
+            "title": "Assistant Professor",
+            "affiliation": "Modern Indian Languages and Literary Studies, Gauhati University, Guwahati, 781014, India",
+            "email": "sarma.dhurjjati@gmail.com",
+            "picture": "/speakers/Picture10.jpg"
+        },
+        {
+            "name": "Dr. Anjuman Ara Begum",
+            "title": "Associate Professor",
+            "affiliation": "Royal School of Law & Administration (RSLA), The Assam Royal Global University",
+            "email": "aabegum1@rgu.ac, email4anju@gmail.com",
+            "picture": "/speakers/Picture11.jpg"
+        },
+        {
+            "name": "Dr. Arpita Roychoudhury",
+            "title": "Growth and Innovation Manager",
+            "affiliation": "Xolo GmbH, Berlin, Germany",
+            "email": "arpita.roychoudhury@xolo3d.com",
+            "picture": "/speakers/Picture12.jpg"
+        }
+    ]
+}
