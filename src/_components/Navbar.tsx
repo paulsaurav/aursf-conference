@@ -62,7 +62,7 @@ const Navbar = () => {
                 <Link href="/registration">Registration</Link>
               </li>
               <li>
-                <Link href="/keynote-speakers">Keynote Speakers</Link>
+                <Link href="/keynote-speakers">Speakers</Link>
               </li>
               <li>
                 <Link href="/contact-us">Contact Us</Link>
@@ -93,7 +93,7 @@ const Navbar = () => {
               <Link href="/registration">Registration</Link>
             </li>
             <li>
-              <Link href="/keynote-speakers">Keynote Speakers</Link>
+              <Link href="/keynote-speakers">Speakers</Link>
             </li>
             <li>
                 <Link href="/sponsorship-opportunities">Sponsorship Opportunities</Link>
